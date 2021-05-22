@@ -1,0 +1,9 @@
+<?xml version="1.0" ?>
+<user_input class='UserInput'>
+    <positive_float_list>[1.0, 2.0, 3.0]</positive_float_list>
+    <positive_float_list_of_lists>[[1.0, 2.0, 3.0], [1.0, 2.0, 3.0], [1.0, 2.0, 3.0]]</positive_float_list_of_lists>
+    <negative_float_list>[-1.0, -2.0, -3.0]</negative_float_list>
+    <negative_float_list_of_lists>[[-1.0, -2.0, -3.0], [-1.0, -2.0, -3.0], [-1.0, -2.0, -3.0]]</negative_float_list_of_lists>
+    <mixed_float_list>[1.0, -2.0, 3.0]</mixed_float_list>
+    <mixed_float_list_of_lists>[[1.0, -2.0, 3.0], [1.0, -2.0, 3.0], [1.0, -2.0, 3.0]]</mixed_float_list_of_lists>
+</user_input>

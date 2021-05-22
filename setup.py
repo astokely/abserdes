@@ -7,7 +7,6 @@ deserialization in Python absurdly easy.
 import sys
 import os
 from setuptools import setup, find_packages, Extension
-from Cython.Build import cythonize
 
 
 setup(
@@ -23,5 +22,5 @@ setup(
     install_requires=["numpy", "pytest", "nptyping", "mdtraj", "cython"],              
     platforms=['Linux',
                 'Unix',],
-    python_requires=">=3.6",          
+    python_requires=">=3.8",          
 )

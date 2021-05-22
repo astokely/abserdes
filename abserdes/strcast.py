@@ -232,7 +232,7 @@ class StrCastUtils(object):
         struct = re.findall(
             r'\S*[A-Za-z]\S*[0-9]\S*|'
             '[0-9]?\S*[A-Za-z]\S*|'
-            '\.?\d+\.?\d*|\d+',
+            '-?\.?\d+\.?\d*|\d+',
             str_struct
         )
         struct = [char.replace(',', '') for char in struct]
