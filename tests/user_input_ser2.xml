@@ -1,0 +1,139 @@
+<?xml version="1.0" ?>
+<UserInput type="instance" class_name="UserInput" module="userinput">
+    <positive_float_list type="list">
+        <positive_float_list_e0 type="float">1.0</positive_float_list_e0>
+        <positive_float_list_e1 type="float">2.0</positive_float_list_e1>
+        <positive_float_list_e2 type="float">3.0</positive_float_list_e2>
+    </positive_float_list>
+    <positive_float_list_of_lists type="list">
+        <positive_float_list_of_lists_e0 type="list">
+            <positive_float_list_of_lists_e0_e0 type="float">1.0</positive_float_list_of_lists_e0_e0>
+            <positive_float_list_of_lists_e0_e1 type="float">2.0</positive_float_list_of_lists_e0_e1>
+            <positive_float_list_of_lists_e0_e2 type="float">3.0</positive_float_list_of_lists_e0_e2>
+        </positive_float_list_of_lists_e0>
+        <positive_float_list_of_lists_e1 type="list">
+            <positive_float_list_of_lists_e1_e0 type="float">1.0</positive_float_list_of_lists_e1_e0>
+            <positive_float_list_of_lists_e1_e1 type="float">2.0</positive_float_list_of_lists_e1_e1>
+            <positive_float_list_of_lists_e1_e2 type="float">3.0</positive_float_list_of_lists_e1_e2>
+        </positive_float_list_of_lists_e1>
+        <positive_float_list_of_lists_e2 type="list">
+            <positive_float_list_of_lists_e2_e0 type="float">1.0</positive_float_list_of_lists_e2_e0>
+            <positive_float_list_of_lists_e2_e1 type="float">2.0</positive_float_list_of_lists_e2_e1>
+            <positive_float_list_of_lists_e2_e2 type="float">3.0</positive_float_list_of_lists_e2_e2>
+        </positive_float_list_of_lists_e2>
+    </positive_float_list_of_lists>
+    <negative_float_list type="list">
+        <negative_float_list_e0 type="float">-1.0</negative_float_list_e0>
+        <negative_float_list_e1 type="float">-2.0</negative_float_list_e1>
+        <negative_float_list_e2 type="float">-3.0</negative_float_list_e2>
+    </negative_float_list>
+    <negative_float_list_of_lists type="list">
+        <negative_float_list_of_lists_e0 type="list">
+            <negative_float_list_of_lists_e0_e0 type="float">-1.0</negative_float_list_of_lists_e0_e0>
+            <negative_float_list_of_lists_e0_e1 type="float">-2.0</negative_float_list_of_lists_e0_e1>
+            <negative_float_list_of_lists_e0_e2 type="float">-3.0</negative_float_list_of_lists_e0_e2>
+        </negative_float_list_of_lists_e0>
+        <negative_float_list_of_lists_e1 type="list">
+            <negative_float_list_of_lists_e1_e0 type="float">-1.0</negative_float_list_of_lists_e1_e0>
+            <negative_float_list_of_lists_e1_e1 type="float">-2.0</negative_float_list_of_lists_e1_e1>
+            <negative_float_list_of_lists_e1_e2 type="float">-3.0</negative_float_list_of_lists_e1_e2>
+        </negative_float_list_of_lists_e1>
+        <negative_float_list_of_lists_e2 type="list">
+            <negative_float_list_of_lists_e2_e0 type="float">-1.0</negative_float_list_of_lists_e2_e0>
+            <negative_float_list_of_lists_e2_e1 type="float">-2.0</negative_float_list_of_lists_e2_e1>
+            <negative_float_list_of_lists_e2_e2 type="float">-3.0</negative_float_list_of_lists_e2_e2>
+        </negative_float_list_of_lists_e2>
+    </negative_float_list_of_lists>
+    <mixed_float_list type="list">
+        <mixed_float_list_e0 type="float">1.0</mixed_float_list_e0>
+        <mixed_float_list_e1 type="float">-2.0</mixed_float_list_e1>
+        <mixed_float_list_e2 type="float">3.0</mixed_float_list_e2>
+    </mixed_float_list>
+    <mixed_float_list_of_lists type="list">
+        <mixed_float_list_of_lists_e0 type="list">
+            <mixed_float_list_of_lists_e0_e0 type="float">1.0</mixed_float_list_of_lists_e0_e0>
+            <mixed_float_list_of_lists_e0_e1 type="float">-2.0</mixed_float_list_of_lists_e0_e1>
+            <mixed_float_list_of_lists_e0_e2 type="float">3.0</mixed_float_list_of_lists_e0_e2>
+        </mixed_float_list_of_lists_e0>
+        <mixed_float_list_of_lists_e1 type="list">
+            <mixed_float_list_of_lists_e1_e0 type="float">1.0</mixed_float_list_of_lists_e1_e0>
+            <mixed_float_list_of_lists_e1_e1 type="float">-2.0</mixed_float_list_of_lists_e1_e1>
+            <mixed_float_list_of_lists_e1_e2 type="float">3.0</mixed_float_list_of_lists_e1_e2>
+        </mixed_float_list_of_lists_e1>
+        <mixed_float_list_of_lists_e2 type="list">
+            <mixed_float_list_of_lists_e2_e0 type="float">1.0</mixed_float_list_of_lists_e2_e0>
+            <mixed_float_list_of_lists_e2_e1 type="float">-2.0</mixed_float_list_of_lists_e2_e1>
+            <mixed_float_list_of_lists_e2_e2 type="float">3.0</mixed_float_list_of_lists_e2_e2>
+        </mixed_float_list_of_lists_e2>
+    </mixed_float_list_of_lists>
+    <positive_int_list type="list">
+        <positive_int_list_e0 type="int">1</positive_int_list_e0>
+        <positive_int_list_e1 type="int">2</positive_int_list_e1>
+        <positive_int_list_e2 type="int">3</positive_int_list_e2>
+    </positive_int_list>
+    <positive_int_list_of_lists type="list">
+        <positive_int_list_of_lists_e0 type="list">
+            <positive_int_list_of_lists_e0_e0 type="int">1</positive_int_list_of_lists_e0_e0>
+            <positive_int_list_of_lists_e0_e1 type="int">2</positive_int_list_of_lists_e0_e1>
+            <positive_int_list_of_lists_e0_e2 type="int">3</positive_int_list_of_lists_e0_e2>
+        </positive_int_list_of_lists_e0>
+        <positive_int_list_of_lists_e1 type="list">
+            <positive_int_list_of_lists_e1_e0 type="int">1</positive_int_list_of_lists_e1_e0>
+            <positive_int_list_of_lists_e1_e1 type="int">2</positive_int_list_of_lists_e1_e1>
+            <positive_int_list_of_lists_e1_e2 type="int">3</positive_int_list_of_lists_e1_e2>
+        </positive_int_list_of_lists_e1>
+        <positive_int_list_of_lists_e2 type="list">
+            <positive_int_list_of_lists_e2_e0 type="int">1</positive_int_list_of_lists_e2_e0>
+            <positive_int_list_of_lists_e2_e1 type="int">2</positive_int_list_of_lists_e2_e1>
+            <positive_int_list_of_lists_e2_e2 type="int">3</positive_int_list_of_lists_e2_e2>
+        </positive_int_list_of_lists_e2>
+    </positive_int_list_of_lists>
+    <negative_int_list type="list">
+        <negative_int_list_e0 type="int">-1</negative_int_list_e0>
+        <negative_int_list_e1 type="int">-2</negative_int_list_e1>
+        <negative_int_list_e2 type="int">-3</negative_int_list_e2>
+    </negative_int_list>
+    <negative_int_list_of_lists type="list">
+        <negative_int_list_of_lists_e0 type="list">
+            <negative_int_list_of_lists_e0_e0 type="int">-1</negative_int_list_of_lists_e0_e0>
+            <negative_int_list_of_lists_e0_e1 type="int">-2</negative_int_list_of_lists_e0_e1>
+            <negative_int_list_of_lists_e0_e2 type="int">-3</negative_int_list_of_lists_e0_e2>
+        </negative_int_list_of_lists_e0>
+        <negative_int_list_of_lists_e1 type="list">
+            <negative_int_list_of_lists_e1_e0 type="int">-1</negative_int_list_of_lists_e1_e0>
+            <negative_int_list_of_lists_e1_e1 type="int">-2</negative_int_list_of_lists_e1_e1>
+            <negative_int_list_of_lists_e1_e2 type="int">-3</negative_int_list_of_lists_e1_e2>
+        </negative_int_list_of_lists_e1>
+        <negative_int_list_of_lists_e2 type="list">
+            <negative_int_list_of_lists_e2_e0 type="int">-1</negative_int_list_of_lists_e2_e0>
+            <negative_int_list_of_lists_e2_e1 type="int">-2</negative_int_list_of_lists_e2_e1>
+            <negative_int_list_of_lists_e2_e2 type="int">-3</negative_int_list_of_lists_e2_e2>
+        </negative_int_list_of_lists_e2>
+    </negative_int_list_of_lists>
+    <mixed_int_list type="list">
+        <mixed_int_list_e0 type="int">1</mixed_int_list_e0>
+        <mixed_int_list_e1 type="int">-2</mixed_int_list_e1>
+        <mixed_int_list_e2 type="int">3</mixed_int_list_e2>
+    </mixed_int_list>
+    <mixed_int_list_of_lists type="list">
+        <mixed_int_list_of_lists_e0 type="list">
+            <mixed_int_list_of_lists_e0_e0 type="int">1</mixed_int_list_of_lists_e0_e0>
+            <mixed_int_list_of_lists_e0_e1 type="int">-2</mixed_int_list_of_lists_e0_e1>
+            <mixed_int_list_of_lists_e0_e2 type="int">3</mixed_int_list_of_lists_e0_e2>
+        </mixed_int_list_of_lists_e0>
+        <mixed_int_list_of_lists_e1 type="list">
+            <mixed_int_list_of_lists_e1_e0 type="int">1</mixed_int_list_of_lists_e1_e0>
+            <mixed_int_list_of_lists_e1_e1 type="int">-2</mixed_int_list_of_lists_e1_e1>
+            <mixed_int_list_of_lists_e1_e2 type="int">3</mixed_int_list_of_lists_e1_e2>
+        </mixed_int_list_of_lists_e1>
+        <mixed_int_list_of_lists_e2 type="list">
+            <mixed_int_list_of_lists_e2_e0 type="int">1</mixed_int_list_of_lists_e2_e0>
+            <mixed_int_list_of_lists_e2_e1 type="int">-2</mixed_int_list_of_lists_e2_e1>
+            <mixed_int_list_of_lists_e2_e2 type="int">3</mixed_int_list_of_lists_e2_e2>
+        </mixed_int_list_of_lists_e2>
+    </mixed_int_list_of_lists>
+    <str_list type="list">
+        <str_list_e0 type="str">step(distance(g1, g2)^2 - radius^2</str_list_e0>
+        <str_list_e1 type="str">0.5*k*(theta-theta0)^2</str_list_e1>
+    </str_list>
+</UserInput>

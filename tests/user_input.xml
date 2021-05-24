@@ -6,4 +6,11 @@
     <negative_float_list_of_lists>[[-1.0, -2.0, -3.0], [-1.0, -2.0, -3.0], [-1.0, -2.0, -3.0]]</negative_float_list_of_lists>
     <mixed_float_list>[1.0, -2.0, 3.0]</mixed_float_list>
     <mixed_float_list_of_lists>[[1.0, -2.0, 3.0], [1.0, -2.0, 3.0], [1.0, -2.0, 3.0]]</mixed_float_list_of_lists>
+    <positive_int_list>[1, 2, 3]</positive_int_list>
+    <positive_int_list_of_lists>[[1, 2, 3], [1, 2, 3], [1, 2, 3]]</positive_int_list_of_lists>
+    <negative_int_list>[-1, -2, -3]</negative_int_list>
+    <negative_int_list_of_lists>[[-1, -2, -3], [-1, -2, -3], [-1, -2, -3]]</negative_int_list_of_lists>
+    <mixed_int_list>[1, -2, 3]</mixed_int_list>
+    <mixed_int_list_of_lists>[[1, -2, 3], [1, -2, 3], [1, -2, 3]]</mixed_int_list_of_lists>
+    <str_list>["step(distance(g1, g2)^2 - radius^2", "0.5*k*(theta-theta0)^2"]</str_list>
 </user_input>
