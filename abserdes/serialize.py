@@ -1,6 +1,5 @@
 
 from __future__ import annotations
-from nptyping import NDArray, Float64
 from typing import Union, TypeVar, NamedTuple, Sequence, Deque, Optional, List, Type, Dict, Any
 from types import ModuleType
 from collections import namedtuple
@@ -11,6 +10,7 @@ from xml.dom.minidom import Document
 from xml.dom import minidom
 import importlib
 from collections import deque
+import numpy as np
 
 from .datatype import data_type
 from .instanceattrs import InstanceAttrs
@@ -64,8 +64,9 @@ class Serialize(SerializerUtils):
             self, 
             data: Union[
                 int, str, float,
-                bool, Float64, Foat32, 
-                Int64, Int32, None,
+                bool, np.float64, np.float32, 
+                np.int64, np.int32, None,
+                np.complex64, np.complex128
             ]
             ) -> str:
         return str(data)
@@ -217,7 +218,7 @@ class Serialize(SerializerUtils):
 
     def serialize_ndarray(
             self, 
-            ndarray_: NDArray, 
+            ndarray_: np.ndarray, 
             minidom_doc: Document, 
             parent: ET.Element,
         ) -> None:

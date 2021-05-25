@@ -1,7 +1,6 @@
 from __future__ import annotations
 from collections.abc import Iterable
 import re
-from nptyping import NDArray, Float64
 import numpy
 from typing import Union, TypeVar, NamedTuple, Sequence, Deque, Optional, List, Type, Dict, Any
 from types import ModuleType

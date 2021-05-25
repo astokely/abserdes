@@ -1,5 +1,4 @@
 from __future__ import annotations
-from nptyping import NDArray, Float64, Float32, Int32, Int64
 from typing import Union, TypeVar, NamedTuple, Sequence, Deque, Optional, List, Type, Dict, Any
 from types import ModuleType
 from collections import namedtuple
@@ -140,7 +139,7 @@ class Deserialize(DeserializeUserInput):
     
     def immutable_is_deserialized(
             self,
-            tmp_tuple_attr_list: Union[List, NDArray],
+            tmp_tuple_attr_list: Union[List, np.ndarray],
             ) -> bool:
         if isinstance(tmp_tuple_attr_list, ndarray):
             tmp_tuple_attr_list = tmp_tuple_attr_list.tolist()
