@@ -19,7 +19,7 @@ setup(
     keywords='xml, serialize, deserialize, serializer',
     url='https://github.com/astokely/abserdes',
     packages=find_packages(),
-    install_requires=["numpy", "pytest", "nptyping", "mdtraj", "cython"],              
+    install_requires=["numpy", "pytest", "data-science-types"],              
     platforms=['Linux',
                 'Unix',],
     python_requires=">=3.8",          
