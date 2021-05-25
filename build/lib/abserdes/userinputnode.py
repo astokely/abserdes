@@ -2,8 +2,6 @@ from __future__ import annotations
 from typing import Union, TypeVar, NamedTuple, Sequence, Deque, Optional, List, Type, Dict, Any
 from types import ModuleType
 
-from nptyping import NDArray, Float64
-
 from .strcast import strcast
 
 

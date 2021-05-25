@@ -1,6 +1,5 @@
 
 from __future__ import annotations
-from nptyping import NDArray, Float64
 from typing import Union, TypeVar, NamedTuple, Sequence, Deque, Optional, List, Type, Dict, Any
 from types import ModuleType
 import xml.etree.ElementTree as ET
