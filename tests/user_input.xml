@@ -12,5 +12,22 @@
     <negative_int_list_of_lists>[[-1, -2, -3], [-1, -2, -3], [-1, -2, -3]]</negative_int_list_of_lists>
     <mixed_int_list>[1, -2, 3]</mixed_int_list>
     <mixed_int_list_of_lists>[[1, -2, 3], [1, -2, 3], [1, -2, 3]]</mixed_int_list_of_lists>
-    <str_list>["step(distance(g1, g2)^2 - radius^2", "0.5*k*(theta-theta0)^2"]</str_list>
+
+    <positive_float64_numpy_array numpy="float64 array">[1.0_FLOAT64, 2.0,_FLOAT64 3.0_FLOAT64]</positive_float64_numpy_array>
+    <positive_float64_numpy_array_of_numpy_arrays numpy="float64 array">[[1.0_FLOAT64, 2.0_FLOAT64, 3.0_FLOAT64], [1.0_FLOAT64, 2.0_FLOAT64, 3.0_FLOAT64], [1.0_FLOAT64, 2.0_FLOAT64, 3.0_FLOAT64]]</positive_float64_numpy_array_of_numpy_arrays>
+    <negative_default_float_numpy_array numpy="array">[-1.0, -2.0, -3.0]</negative_default_float_numpy_array>
+    <negative_default_float_numpy_array_of_numpy_arrays numpy="array">[[-1.0, -2.0, -3.0], [-1.0, -2.0, -3.0], [-1.0, -2.0, -3.0]]</negative_default_float_numpy_array_of_numpy_arrays>
+    <mixed_complex128_numpy_array numpy="complex128">[1.0_COMPLEX128, -2.0_COMPLEX128, 3.0_COMPLEX128]</mixed_complex128_numpy_array>
+    <mixed_complex128_numpy_array_of_numpy_arrays numpy="complex128">[[1.0_COMPLEX128, -2.0_COMPLEX128, 3.0_COMPLEX128], [1.0_COMPLEX128, -2.0_COMPLEX128, 3.0_COMPLEX128], [1.0_COMPLEX128, -2.0_COMPLEX128, 3.0_COMPLEX128]]</mixed_complex128_numpy_array_of_numpy_arrays>
+    <mixed_complex64_numpy_array numpy="complex64">[1.0_COMPLEX64, -2.0_COMPLEX64, 3.0_COMPLEX64]</mixed_complex64_numpy_array>
+    <mixed_complex64_numpy_array_of_numpy_arrays numpy="complex64">[[1.0_COMPLEX64, -2.0_COMPLEX64, 3.0_COMPLEX64], [1.0_COMPLEX64, -2.0_COMPLEX64, 3.0_COMPLEX64], [1.0_COMPLEX64, -2.0_COMPLEX64, 3.0_COMPLEX64]]
+    </mixed_complex64_numpy_array_of_numpy_arrays>
+    <positive_int32_numpy_array numpy="int32">[1_INT32, 2_INT32, 3_INT32]</positive_int32_numpy_array>
+    <positive_int32_numpy_array_of_numpy_arrays numpy="int32">[[1_INT32, 2_INT32, 3_INT32], [1_INT32, 2_INT32, 3_INT32], [1_INT32, 2_INT32, 3_INT32]]</positive_int32_numpy_array_of_numpy_arrays>
+    <negative_int_float_cast_numpy_array numpy="array">[-1, -2, -3]</negative_int_float_cast_numpy_array>
+    <negative_int_float_cast_numpy_array_of_numpy_arrays numpy="array">[[-1, -2, -3], [-1, -2, -3], [-1, -2, -3]]</negative_int_float_cast_numpy_array_of_numpy_arrays>
+    <mixed_int64_numpy_array numpy="int64 array">[1_INT64, -2_INT64, 3_INT64]</mixed_int64_numpy_array>
+    <mixed_int64_numpy_array_of_numpy_arrays numpy="int64 array">[[1_INT64, -2_INT64, 3_INT64], [1_INT64, -2_INT64, 3_INT64], [1_INT64, -2_INT64, 3_INT64]]</mixed_int64_numpy_array_of_numpy_arrays>
+    <str_expr_list>["step(distance(g1, g2)^2 - radius^2", "0.5*k*(theta-theta0)^2"]</str_expr_list>
+    <str_list>[Langevin, OpenMM]</str_list>
 </user_input>

@@ -392,6 +392,8 @@ class Deserialize(DeserializeUserInput):
             'float32' : self.deserialize_float32,
             'int64' : self.deserialize_int64,
             'int32' : self.deserialize_int32,
+            'complex64' : self.deserialize_complex64,
+            'complex128' : self.deserialize_complex128,
             'str' : self.deserialize_str,
             'bool' : self.deserialize_bool,
             'instance' : self.deserialize_instance,
@@ -464,6 +466,34 @@ class Deserialize(DeserializeUserInput):
             return self.deserialize_nested_attr(name , val, path)
         name = node.tag
         val = np.float64(node.text)
+        setattr(self, name, val)
+
+    def deserialize_complex64(
+            self, 
+            node, 
+            child = None, 
+            path = [],
+            ):
+        if path:
+            name = node.tag
+            val = np.complex64(child.text)
+            return self.deserialize_nested_attr(name , val, path)
+        name = node.tag
+        val = np.complex64(node.text)
+        setattr(self, name, val)
+
+    def deserialize_complex128(
+            self, 
+            node, 
+            child = None, 
+            path = [],
+            ):
+        if path:
+            name = node.tag
+            val = np.complex128(child.text)
+            return self.deserialize_nested_attr(name , val, path)
+        name = node.tag
+        val = np.complex128(node.text)
         setattr(self, name, val)
 
     def deserialize_float32(

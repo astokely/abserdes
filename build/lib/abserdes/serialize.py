@@ -53,7 +53,8 @@ class Serialize(SerializerUtils):
         pdts = set([
             'int', 'float', 'bool', 
             'str', 'float64', 'NoneType',
-            'float32', 'int64', 'int32'
+            'float32', 'int64', 'int32',
+            'complex64', 'complex128'
         ])
         if data_type in pdts:
             return

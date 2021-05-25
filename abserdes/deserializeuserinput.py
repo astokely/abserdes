@@ -1,6 +1,7 @@
 from __future__ import annotations
+import numpy as np
 from nptyping import NDArray, Float64
-from typing import Union, TypeVar, NamedTuple, Sequence, Deque, Optional, List, Type, Dict, Any
+from typing import Union, TypeVar, NamedTuple, Sequence, Deque, Optional, List, Type, Dict, Any, Type
 from types import ModuleType
 from collections import namedtuple
 import copy
@@ -98,6 +99,68 @@ class DeserializeUserInput(SerializerUtils):
                 inst_list_attrs[index]
             )
 
+    def numpy_dtype_dict(
+            self,
+            ) -> Dict[str, Union[
+                Type[np.ndarray],
+                Type[np.float32], 
+                Type[np.float64], 
+                Type[np.int32],
+                Type[np.int64], 
+                Type[np.complex64],
+                Type[np.complex128]
+            ]]:
+        return {
+            "array" : np.array,
+            "float32" : np.float32,
+            "float64" : np.float64,
+            "int32" : np.int32,
+            "int64" : np.int64,
+            "complex64" : np.complex64,
+            "complex128" : np.complex128
+        }
+
+    def ndarray_dtype(
+            self,
+            array_dtype: str,
+            ) -> Union[
+                np.float32, 
+                np.float64, 
+                np.int32,
+                np.int64, 
+                np.complex64,
+                np.complex128
+            ]:
+        dtype_name = array_dtype.replace(" array", "")
+        if dtype_name == "array":
+            return self.numpy_dtype_dict()["float32"]
+        return self.numpy_dtype_dict()[dtype_name]
+            
+
+    def cast_to_numpy_dtype(
+            self,
+            val: Union[List, int, float],
+            dtype: str,
+            ) -> Union[
+                np.ndarray,
+                np.float32, 
+                np.float64, 
+                np.int32,
+                np.int64, 
+                np.complex64,
+                np.complex128
+            ]:
+        if "array" in dtype:
+            array_dtype = self.ndarray_dtype(dtype)
+            return self.numpy_dtype_dict()['array'](
+                val, 
+                dtype=array_dtype
+            )
+        return self.numpy_dtype_dict()[dtype](
+            val 
+        )
+        
+
     def non_instance_attr(
             self, 
             node: UserInputNode, 
@@ -110,11 +173,21 @@ class DeserializeUserInput(SerializerUtils):
             setattr(self, node.name, '')
             inst_attrs.call_init()
         else:
-            setattr(
-                self, 
-                node.name, 
-                strcast(xml_node.text)
-            )
+            if "numpy" in xml_node.attrib:
+                setattr(
+                    self, 
+                    node.name, 
+                    self.cast_to_numpy_dtype(
+                        strcast(xml_node.text),
+                        xml_node.attrib["numpy"]
+                    )
+                )
+            else:
+                setattr(
+                    self, 
+                    node.name, 
+                    strcast(xml_node.text)
+                )
             inst_attrs.call_init()
 
     def __deserialize_user_input(

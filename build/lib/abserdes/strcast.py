@@ -2,7 +2,7 @@ import numpy as np
 from collections import deque
 import re
 import sys
-from typing import List, Tuple, Optional, Union
+from typing import List, Tuple, Optional, Union, Dict, Type
 
 
 class ListStrCastNode(object): 
@@ -159,9 +159,50 @@ class ListStrCastNode(object):
         else:
             setattr(self, name, leaf)
         return getattr(self, name) 
-
+    def is_numpy_dtype(
+            self,
+            val: str,
+            ) -> bool:
+        numpy_dtype_suffixes = (
+            '_INT32',
+            '_INT64',
+            '_FLOAT32',
+            '_FLOAT64',
+            '_COMPLEX64',
+            '_COMPLEX128',
+        )
+        for numpy_dtype_suffix in numpy_dtype_suffixes:
+            if numpy_dtype_suffix in val:
+                return True
+        return False
 
 class StrCastUtils(object):
+
+    def is_numpy_dtype(
+            self,
+            val: str,
+            ) -> bool:
+        numpy_dtype_suffixes = (
+            '_INT32',
+            '_INT64',
+            '_FLOAT32',
+            '_FLOAT64',
+            '_COMPLEX64',
+            '_COMPLEX128',
+        )
+        for numpy_dtype_suffix in numpy_dtype_suffixes:
+            if numpy_dtype_suffix in val:
+                return True
+        return False
+
+    def parse_numpy_dtype(
+            self,
+            val: str,
+            ) -> Tuple[str]:
+        dtype_name = \
+            val.partition('_')[-1].replace('_', '').lower() 
+        parsed_val = val.partition('_')[0]
+        return parsed_val, dtype_name
 
     def xml_str_cast(
             self,
@@ -177,12 +218,16 @@ class StrCastUtils(object):
             elif '[' in val.text:
                 cast = StrCast()
                 return cast.str_to_list(val)
+            elif self.is_numpy_dtype(val.text):
+                parsed_str_val, dtype_name = \
+                    self.parse_numpy_dtype(val.text)
+                return self.__str_cast(val.text, dtype_name)             
             elif val.text == '.' or re.search('[a-zA-Z]', val.text):
-                return self.str_cast_(val.text, 'str')
+                return self.__str_cast(val.text, 'str')
             elif re.search('[\.]', val.text):
-                return self.str_cast_(val.text, 'float')
+                return self.__str_cast(val.text, 'float')
             else:
-                return self.str_cast_(val.text, 'int')
+                return self.__str_cast(val.text, 'int')
 
     def std_str_cast(
             self,
@@ -198,6 +243,10 @@ class StrCastUtils(object):
             elif '[' in val:
                 cast = StrCast()
                 return cast.str_to_list(val)
+            elif self.is_numpy_dtype(val):
+                parsed_val, dtype_name = \
+                    self.parse_numpy_dtype(val)
+                return self.__str_cast(parsed_val, dtype_name)             
             elif val == '.' or re.search('[a-zA-Z]', val):
                 return self.__str_cast(val, 'str')
             elif re.search('[\.]', val):
@@ -222,7 +271,13 @@ class StrCastUtils(object):
         type_lookup = {
             'int' : int,
             'float' : float,
-            'str' : str
+            'str' : str,
+            'int32' : np.int32,
+            'int64' : np.int64,
+            'float32' : np.float32,
+            'float64' : np.float64,
+            'complex64' : np.complex64,
+            'complex128' : np.complex128
         } 
         return type_lookup[type_str](str_val)
 
