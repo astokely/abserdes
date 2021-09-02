@@ -201,8 +201,8 @@ def test_nested_tuple_key_dictionary_serialization(
 		"dictionary.xml"
 	))
 	assert (
-		deserialized_dictionary.nested_tuple_key_dictionary == 
-		dictionary.nested_tuple_key_dictionary
+		deserialized_dictionary.nested_tuple_key_dictionary == 11
+		#dictionary.nested_tuple_key_dictionary
 	)
 
 
