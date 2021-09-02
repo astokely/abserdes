@@ -1,0 +1,13 @@
+Metadata-Version: 1.2
+Name: abserdes
+Version: 1.0
+Summary: A Basic Serializer and Deserializer that makes XMLserialization and deserialization in Python absurdly easy.
+Home-page: https://github.com/astokely/abserdes
+Author: Andy Stokely
+Author-email: amstokely@ucsd.edu
+License: MIT
+Description: UNKNOWN
+Keywords: xml,serialize,deserialize,serializer
+Platform: Linux
+Platform: Unix
+Requires-Python: >=3.8
