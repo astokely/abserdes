@@ -9,7 +9,7 @@ on:
       - beta 
       - main
 jobs:
-  build:
+  build_py38:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -26,7 +26,7 @@ jobs:
         run: |
             cd tests
             pytest
-  build:
+  build_py39:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -43,7 +43,7 @@ jobs:
         run: |
             cd tests
             pytest
-  build:
+  build_py310:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
