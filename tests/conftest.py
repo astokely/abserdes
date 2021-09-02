@@ -1,5 +1,12 @@
+import shutil
 from userinput import UserInput
 import pytest
+import abserdes
+
+class Dictionary(abserdes.Serializer):
+
+	def __init__(self):
+		return
 
 user_input = UserInput()
 user_input.deserialize("user_input.xml", user_input=True)

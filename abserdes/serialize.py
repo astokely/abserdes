@@ -229,29 +229,29 @@ class Serialize(SerializerUtils):
 			self,
 			dict_: Dict,
 	) -> Dict:
+		dtype_suffix_dict = {
+			'int' : '',
+			'str' : '',
+			'float' : '',
+			'int32' : '-INT32',
+			'int64' : '-INT64',
+			'float32' : '-FLOAT32',
+			'float64' : '-FLOAT64',
+			'float128' : '-FLOAT128',
+			'complex64' : '-COMPLEX64',
+			'complex128' : '-COMPLEX128',
+		}
 		serializeable_dict = {}
 		for key, value in dict_.items():
-			dtype_suffix_dict = {
-				'int' : '',
-				'str' : '',
-				'float' : '',
-				'int32' : '-INT32',
-				'int64' : '-INT64',
-				'float32' : '-FLOAT32',
-				'float64' : '-FLOAT64',
-				'float128' : '-FLOAT128',
-				'complex64' : '-COMPLEX64',
-				'complex128' : '-COMPLEX128',
-			}
 			if isinstance(key, str):
 				serializeable_dict[key] = value 
 			elif isinstance(key, tuple):
-				serializeable_key = (
-					''.join(
-						['key_']+[f'{i}{dtype_suffix_dict[i.__class__.__name__]}_' 
-						for i in key]+['tuple']
-					)
-				)
+				prefix = 'key_'
+				suffix = 'tuple'
+				serializeable_key = prefix 
+				for i in key:
+					serializeable_key += str(i) + dtype_suffix_dict[i.__class__.__name__] + '_'
+				serializeable_key = serializeable_key + suffix 
 				serializeable_dict[serializeable_key] = value 
 			else:
 				serializeable_key = (
