@@ -24,7 +24,10 @@ def test_dictionary_serialization(
 		tmp_test_files_dir /
 		"dictionary.xml"
 	))
-	assert deserialized_dictionary.dictionary == dictionary.dictionary
+	assert ( 
+		deserialized_dictionary.dictionary 
+		== dictionary.dictionary
+	)
 
 @pytest.mark.dictionary
 def test_tuple_key_dictionary_serialization(
@@ -45,7 +48,10 @@ def test_tuple_key_dictionary_serialization(
 		tmp_test_files_dir /
 		"dictionary.xml"
 	))
-	assert deserialized_dictionary.tuple_key_dictionary == dictionary.tuple_key_dictionary
+	assert ( 
+		deserialized_dictionary.tuple_key_dictionary 
+		== dictionary.tuple_key_dictionary
+	)
 
 @pytest.mark.dictionary
 def test_int_key_dictionary_serialization(
@@ -66,7 +72,10 @@ def test_int_key_dictionary_serialization(
 		tmp_test_files_dir /
 		"dictionary.xml"
 	))
-	assert deserialized_dictionary.int_key_dictionary == dictionary.int_key_dictionary
+	assert ( 
+		deserialized_dictionary.int_key_dictionary 
+		== dictionary.int_key_dictionary
+	)
 
 @pytest.mark.dictionary
 def test_float128_key_dictionary_serialization(
@@ -87,7 +96,10 @@ def test_float128_key_dictionary_serialization(
 		tmp_test_files_dir /
 		"dictionary.xml"
 	))
-	assert deserialized_dictionary.float128_key_dictionary == dictionary.float128_key_dictionary
+	assert (
+		deserialized_dictionary.float128_key_dictionary 
+		== dictionary.float128_key_dictionary
+	)
 
 @pytest.mark.dictionary
 def test_nested_dictionary_serialization(
@@ -108,7 +120,10 @@ def test_nested_dictionary_serialization(
 		tmp_test_files_dir /
 		"dictionary.xml"
 	))
-	assert deserialized_dictionary.nested_dictionary == dictionary.nested_dictionary
+	assert (
+		deserialized_dictionary.nested_dictionary 
+		== dictionary.nested_dictionary
+	)
 
 @pytest.mark.dictionary
 def test_float_key_dictionary_serialization(
@@ -129,7 +144,10 @@ def test_float_key_dictionary_serialization(
 		tmp_test_files_dir /
 		"dictionary.xml"
 	))
-	assert deserialized_dictionary.float_key_dictionary == dictionary.float_key_dictionary
+	assert (
+		deserialized_dictionary.float_key_dictionary 
+		== dictionary.float_key_dictionary
+	)
 
 @pytest.mark.dictionary
 def test_int_key_dictionary_serialization(
@@ -150,7 +168,10 @@ def test_int_key_dictionary_serialization(
 		tmp_test_files_dir /
 		"dictionary.xml"
 	))
-	assert deserialized_dictionary.int_key_dictionary == dictionary.int_key_dictionary
+	assert (
+		deserialized_dictionary.int_key_dictionary 
+		== dictionary.int_key_dictionary
+	)
 
 @pytest.mark.dictionary
 def test_float64_key_dictionary_serialization(
@@ -171,7 +192,10 @@ def test_float64_key_dictionary_serialization(
 		tmp_test_files_dir /
 		"dictionary.xml"
 	))
-	assert deserialized_dictionary.float64_key_dictionary == dictionary.float64_key_dictionary
+	assert (
+		deserialized_dictionary.float64_key_dictionary 
+		== dictionary.float64_key_dictionary
+	)
 
 @pytest.mark.dictionary
 def test_nested_tuple_key_dictionary_serialization(
@@ -201,8 +225,8 @@ def test_nested_tuple_key_dictionary_serialization(
 		"dictionary.xml"
 	))
 	assert (
-		deserialized_dictionary.nested_tuple_key_dictionary == 11
-		#dictionary.nested_tuple_key_dictionary
+		deserialized_dictionary.nested_tuple_key_dictionary == 
+		dictionary.nested_tuple_key_dictionary
 	)
 
 

@@ -5,7 +5,7 @@ import abserdes
 
 def test_deserialize_user_input_float_list():
     user_input = UserInput()
-    user_input.deserialize("user_input.xml", user_input=True)
+    user_input.deserialize("xmls/user_input.xml", user_input=True)
     assert user_input.positive_float_list == [
         1.0, 2.0, 3.0
     ]
