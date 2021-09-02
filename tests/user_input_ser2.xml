@@ -1,297 +1,297 @@
 <?xml version="1.0" ?>
 <UserInput type="instance" class_name="UserInput" module="userinput">
-    <positive_float_list type="list">
-        <positive_float_list_e0 type="float">1.0</positive_float_list_e0>
-        <positive_float_list_e1 type="float">2.0</positive_float_list_e1>
-        <positive_float_list_e2 type="float">3.0</positive_float_list_e2>
-    </positive_float_list>
-    <positive_float_list_of_lists type="list">
-        <positive_float_list_of_lists_e0 type="list">
-            <positive_float_list_of_lists_e0_e0 type="float">1.0</positive_float_list_of_lists_e0_e0>
-            <positive_float_list_of_lists_e0_e1 type="float">2.0</positive_float_list_of_lists_e0_e1>
-            <positive_float_list_of_lists_e0_e2 type="float">3.0</positive_float_list_of_lists_e0_e2>
-        </positive_float_list_of_lists_e0>
-        <positive_float_list_of_lists_e1 type="list">
-            <positive_float_list_of_lists_e1_e0 type="float">1.0</positive_float_list_of_lists_e1_e0>
-            <positive_float_list_of_lists_e1_e1 type="float">2.0</positive_float_list_of_lists_e1_e1>
-            <positive_float_list_of_lists_e1_e2 type="float">3.0</positive_float_list_of_lists_e1_e2>
-        </positive_float_list_of_lists_e1>
-        <positive_float_list_of_lists_e2 type="list">
-            <positive_float_list_of_lists_e2_e0 type="float">1.0</positive_float_list_of_lists_e2_e0>
-            <positive_float_list_of_lists_e2_e1 type="float">2.0</positive_float_list_of_lists_e2_e1>
-            <positive_float_list_of_lists_e2_e2 type="float">3.0</positive_float_list_of_lists_e2_e2>
-        </positive_float_list_of_lists_e2>
-    </positive_float_list_of_lists>
-    <negative_float_list type="list">
-        <negative_float_list_e0 type="float">-1.0</negative_float_list_e0>
-        <negative_float_list_e1 type="float">-2.0</negative_float_list_e1>
-        <negative_float_list_e2 type="float">-3.0</negative_float_list_e2>
-    </negative_float_list>
-    <negative_float_list_of_lists type="list">
-        <negative_float_list_of_lists_e0 type="list">
-            <negative_float_list_of_lists_e0_e0 type="float">-1.0</negative_float_list_of_lists_e0_e0>
-            <negative_float_list_of_lists_e0_e1 type="float">-2.0</negative_float_list_of_lists_e0_e1>
-            <negative_float_list_of_lists_e0_e2 type="float">-3.0</negative_float_list_of_lists_e0_e2>
-        </negative_float_list_of_lists_e0>
-        <negative_float_list_of_lists_e1 type="list">
-            <negative_float_list_of_lists_e1_e0 type="float">-1.0</negative_float_list_of_lists_e1_e0>
-            <negative_float_list_of_lists_e1_e1 type="float">-2.0</negative_float_list_of_lists_e1_e1>
-            <negative_float_list_of_lists_e1_e2 type="float">-3.0</negative_float_list_of_lists_e1_e2>
-        </negative_float_list_of_lists_e1>
-        <negative_float_list_of_lists_e2 type="list">
-            <negative_float_list_of_lists_e2_e0 type="float">-1.0</negative_float_list_of_lists_e2_e0>
-            <negative_float_list_of_lists_e2_e1 type="float">-2.0</negative_float_list_of_lists_e2_e1>
-            <negative_float_list_of_lists_e2_e2 type="float">-3.0</negative_float_list_of_lists_e2_e2>
-        </negative_float_list_of_lists_e2>
-    </negative_float_list_of_lists>
-    <mixed_float_list type="list">
-        <mixed_float_list_e0 type="float">1.0</mixed_float_list_e0>
-        <mixed_float_list_e1 type="float">-2.0</mixed_float_list_e1>
-        <mixed_float_list_e2 type="float">3.0</mixed_float_list_e2>
-    </mixed_float_list>
-    <mixed_float_list_of_lists type="list">
-        <mixed_float_list_of_lists_e0 type="list">
-            <mixed_float_list_of_lists_e0_e0 type="float">1.0</mixed_float_list_of_lists_e0_e0>
-            <mixed_float_list_of_lists_e0_e1 type="float">-2.0</mixed_float_list_of_lists_e0_e1>
-            <mixed_float_list_of_lists_e0_e2 type="float">3.0</mixed_float_list_of_lists_e0_e2>
-        </mixed_float_list_of_lists_e0>
-        <mixed_float_list_of_lists_e1 type="list">
-            <mixed_float_list_of_lists_e1_e0 type="float">1.0</mixed_float_list_of_lists_e1_e0>
-            <mixed_float_list_of_lists_e1_e1 type="float">-2.0</mixed_float_list_of_lists_e1_e1>
-            <mixed_float_list_of_lists_e1_e2 type="float">3.0</mixed_float_list_of_lists_e1_e2>
-        </mixed_float_list_of_lists_e1>
-        <mixed_float_list_of_lists_e2 type="list">
-            <mixed_float_list_of_lists_e2_e0 type="float">1.0</mixed_float_list_of_lists_e2_e0>
-            <mixed_float_list_of_lists_e2_e1 type="float">-2.0</mixed_float_list_of_lists_e2_e1>
-            <mixed_float_list_of_lists_e2_e2 type="float">3.0</mixed_float_list_of_lists_e2_e2>
-        </mixed_float_list_of_lists_e2>
-    </mixed_float_list_of_lists>
-    <positive_int_list type="list">
-        <positive_int_list_e0 type="int">1</positive_int_list_e0>
-        <positive_int_list_e1 type="int">2</positive_int_list_e1>
-        <positive_int_list_e2 type="int">3</positive_int_list_e2>
-    </positive_int_list>
-    <positive_int_list_of_lists type="list">
-        <positive_int_list_of_lists_e0 type="list">
-            <positive_int_list_of_lists_e0_e0 type="int">1</positive_int_list_of_lists_e0_e0>
-            <positive_int_list_of_lists_e0_e1 type="int">2</positive_int_list_of_lists_e0_e1>
-            <positive_int_list_of_lists_e0_e2 type="int">3</positive_int_list_of_lists_e0_e2>
-        </positive_int_list_of_lists_e0>
-        <positive_int_list_of_lists_e1 type="list">
-            <positive_int_list_of_lists_e1_e0 type="int">1</positive_int_list_of_lists_e1_e0>
-            <positive_int_list_of_lists_e1_e1 type="int">2</positive_int_list_of_lists_e1_e1>
-            <positive_int_list_of_lists_e1_e2 type="int">3</positive_int_list_of_lists_e1_e2>
-        </positive_int_list_of_lists_e1>
-        <positive_int_list_of_lists_e2 type="list">
-            <positive_int_list_of_lists_e2_e0 type="int">1</positive_int_list_of_lists_e2_e0>
-            <positive_int_list_of_lists_e2_e1 type="int">2</positive_int_list_of_lists_e2_e1>
-            <positive_int_list_of_lists_e2_e2 type="int">3</positive_int_list_of_lists_e2_e2>
-        </positive_int_list_of_lists_e2>
-    </positive_int_list_of_lists>
-    <negative_int_list type="list">
-        <negative_int_list_e0 type="int">-1</negative_int_list_e0>
-        <negative_int_list_e1 type="int">-2</negative_int_list_e1>
-        <negative_int_list_e2 type="int">-3</negative_int_list_e2>
-    </negative_int_list>
-    <negative_int_list_of_lists type="list">
-        <negative_int_list_of_lists_e0 type="list">
-            <negative_int_list_of_lists_e0_e0 type="int">-1</negative_int_list_of_lists_e0_e0>
-            <negative_int_list_of_lists_e0_e1 type="int">-2</negative_int_list_of_lists_e0_e1>
-            <negative_int_list_of_lists_e0_e2 type="int">-3</negative_int_list_of_lists_e0_e2>
-        </negative_int_list_of_lists_e0>
-        <negative_int_list_of_lists_e1 type="list">
-            <negative_int_list_of_lists_e1_e0 type="int">-1</negative_int_list_of_lists_e1_e0>
-            <negative_int_list_of_lists_e1_e1 type="int">-2</negative_int_list_of_lists_e1_e1>
-            <negative_int_list_of_lists_e1_e2 type="int">-3</negative_int_list_of_lists_e1_e2>
-        </negative_int_list_of_lists_e1>
-        <negative_int_list_of_lists_e2 type="list">
-            <negative_int_list_of_lists_e2_e0 type="int">-1</negative_int_list_of_lists_e2_e0>
-            <negative_int_list_of_lists_e2_e1 type="int">-2</negative_int_list_of_lists_e2_e1>
-            <negative_int_list_of_lists_e2_e2 type="int">-3</negative_int_list_of_lists_e2_e2>
-        </negative_int_list_of_lists_e2>
-    </negative_int_list_of_lists>
-    <mixed_int_list type="list">
-        <mixed_int_list_e0 type="int">1</mixed_int_list_e0>
-        <mixed_int_list_e1 type="int">-2</mixed_int_list_e1>
-        <mixed_int_list_e2 type="int">3</mixed_int_list_e2>
-    </mixed_int_list>
-    <mixed_int_list_of_lists type="list">
-        <mixed_int_list_of_lists_e0 type="list">
-            <mixed_int_list_of_lists_e0_e0 type="int">1</mixed_int_list_of_lists_e0_e0>
-            <mixed_int_list_of_lists_e0_e1 type="int">-2</mixed_int_list_of_lists_e0_e1>
-            <mixed_int_list_of_lists_e0_e2 type="int">3</mixed_int_list_of_lists_e0_e2>
-        </mixed_int_list_of_lists_e0>
-        <mixed_int_list_of_lists_e1 type="list">
-            <mixed_int_list_of_lists_e1_e0 type="int">1</mixed_int_list_of_lists_e1_e0>
-            <mixed_int_list_of_lists_e1_e1 type="int">-2</mixed_int_list_of_lists_e1_e1>
-            <mixed_int_list_of_lists_e1_e2 type="int">3</mixed_int_list_of_lists_e1_e2>
-        </mixed_int_list_of_lists_e1>
-        <mixed_int_list_of_lists_e2 type="list">
-            <mixed_int_list_of_lists_e2_e0 type="int">1</mixed_int_list_of_lists_e2_e0>
-            <mixed_int_list_of_lists_e2_e1 type="int">-2</mixed_int_list_of_lists_e2_e1>
-            <mixed_int_list_of_lists_e2_e2 type="int">3</mixed_int_list_of_lists_e2_e2>
-        </mixed_int_list_of_lists_e2>
-    </mixed_int_list_of_lists>
-    <positive_float64_numpy_array type="ndarray">
-        <positive_float64_numpy_array_e0 type="float64">1.0</positive_float64_numpy_array_e0>
-        <positive_float64_numpy_array_e1 type="float64">2.0</positive_float64_numpy_array_e1>
-        <positive_float64_numpy_array_e2 type="float64">3.0</positive_float64_numpy_array_e2>
-    </positive_float64_numpy_array>
-    <positive_float64_numpy_array_of_numpy_arrays type="ndarray">
-        <positive_float64_numpy_array_of_numpy_arrays_e0 type="ndarray">
-            <positive_float64_numpy_array_of_numpy_arrays_e0_e0 type="float64">1.0</positive_float64_numpy_array_of_numpy_arrays_e0_e0>
-            <positive_float64_numpy_array_of_numpy_arrays_e0_e1 type="float64">2.0</positive_float64_numpy_array_of_numpy_arrays_e0_e1>
-            <positive_float64_numpy_array_of_numpy_arrays_e0_e2 type="float64">3.0</positive_float64_numpy_array_of_numpy_arrays_e0_e2>
-        </positive_float64_numpy_array_of_numpy_arrays_e0>
-        <positive_float64_numpy_array_of_numpy_arrays_e1 type="ndarray">
-            <positive_float64_numpy_array_of_numpy_arrays_e1_e0 type="float64">1.0</positive_float64_numpy_array_of_numpy_arrays_e1_e0>
-            <positive_float64_numpy_array_of_numpy_arrays_e1_e1 type="float64">2.0</positive_float64_numpy_array_of_numpy_arrays_e1_e1>
-            <positive_float64_numpy_array_of_numpy_arrays_e1_e2 type="float64">3.0</positive_float64_numpy_array_of_numpy_arrays_e1_e2>
-        </positive_float64_numpy_array_of_numpy_arrays_e1>
-        <positive_float64_numpy_array_of_numpy_arrays_e2 type="ndarray">
-            <positive_float64_numpy_array_of_numpy_arrays_e2_e0 type="float64">1.0</positive_float64_numpy_array_of_numpy_arrays_e2_e0>
-            <positive_float64_numpy_array_of_numpy_arrays_e2_e1 type="float64">2.0</positive_float64_numpy_array_of_numpy_arrays_e2_e1>
-            <positive_float64_numpy_array_of_numpy_arrays_e2_e2 type="float64">3.0</positive_float64_numpy_array_of_numpy_arrays_e2_e2>
-        </positive_float64_numpy_array_of_numpy_arrays_e2>
-    </positive_float64_numpy_array_of_numpy_arrays>
-    <negative_default_float_numpy_array type="ndarray">
-        <negative_default_float_numpy_array_e0 type="float32">-1.0</negative_default_float_numpy_array_e0>
-        <negative_default_float_numpy_array_e1 type="float32">-2.0</negative_default_float_numpy_array_e1>
-        <negative_default_float_numpy_array_e2 type="float32">-3.0</negative_default_float_numpy_array_e2>
-    </negative_default_float_numpy_array>
-    <negative_default_float_numpy_array_of_numpy_arrays type="ndarray">
-        <negative_default_float_numpy_array_of_numpy_arrays_e0 type="ndarray">
-            <negative_default_float_numpy_array_of_numpy_arrays_e0_e0 type="float32">-1.0</negative_default_float_numpy_array_of_numpy_arrays_e0_e0>
-            <negative_default_float_numpy_array_of_numpy_arrays_e0_e1 type="float32">-2.0</negative_default_float_numpy_array_of_numpy_arrays_e0_e1>
-            <negative_default_float_numpy_array_of_numpy_arrays_e0_e2 type="float32">-3.0</negative_default_float_numpy_array_of_numpy_arrays_e0_e2>
-        </negative_default_float_numpy_array_of_numpy_arrays_e0>
-        <negative_default_float_numpy_array_of_numpy_arrays_e1 type="ndarray">
-            <negative_default_float_numpy_array_of_numpy_arrays_e1_e0 type="float32">-1.0</negative_default_float_numpy_array_of_numpy_arrays_e1_e0>
-            <negative_default_float_numpy_array_of_numpy_arrays_e1_e1 type="float32">-2.0</negative_default_float_numpy_array_of_numpy_arrays_e1_e1>
-            <negative_default_float_numpy_array_of_numpy_arrays_e1_e2 type="float32">-3.0</negative_default_float_numpy_array_of_numpy_arrays_e1_e2>
-        </negative_default_float_numpy_array_of_numpy_arrays_e1>
-        <negative_default_float_numpy_array_of_numpy_arrays_e2 type="ndarray">
-            <negative_default_float_numpy_array_of_numpy_arrays_e2_e0 type="float32">-1.0</negative_default_float_numpy_array_of_numpy_arrays_e2_e0>
-            <negative_default_float_numpy_array_of_numpy_arrays_e2_e1 type="float32">-2.0</negative_default_float_numpy_array_of_numpy_arrays_e2_e1>
-            <negative_default_float_numpy_array_of_numpy_arrays_e2_e2 type="float32">-3.0</negative_default_float_numpy_array_of_numpy_arrays_e2_e2>
-        </negative_default_float_numpy_array_of_numpy_arrays_e2>
-    </negative_default_float_numpy_array_of_numpy_arrays>
-    <mixed_complex128_numpy_array type="ndarray">
-        <mixed_complex128_numpy_array_e0 type="complex128">(1+0j)</mixed_complex128_numpy_array_e0>
-        <mixed_complex128_numpy_array_e1 type="complex128">(-2+0j)</mixed_complex128_numpy_array_e1>
-        <mixed_complex128_numpy_array_e2 type="complex128">(3+0j)</mixed_complex128_numpy_array_e2>
-    </mixed_complex128_numpy_array>
-    <mixed_complex128_numpy_array_of_numpy_arrays type="ndarray">
-        <mixed_complex128_numpy_array_of_numpy_arrays_e0 type="ndarray">
-            <mixed_complex128_numpy_array_of_numpy_arrays_e0_e0 type="complex128">(1+0j)</mixed_complex128_numpy_array_of_numpy_arrays_e0_e0>
-            <mixed_complex128_numpy_array_of_numpy_arrays_e0_e1 type="complex128">(-2+0j)</mixed_complex128_numpy_array_of_numpy_arrays_e0_e1>
-            <mixed_complex128_numpy_array_of_numpy_arrays_e0_e2 type="complex128">(3+0j)</mixed_complex128_numpy_array_of_numpy_arrays_e0_e2>
-        </mixed_complex128_numpy_array_of_numpy_arrays_e0>
-        <mixed_complex128_numpy_array_of_numpy_arrays_e1 type="ndarray">
-            <mixed_complex128_numpy_array_of_numpy_arrays_e1_e0 type="complex128">(1+0j)</mixed_complex128_numpy_array_of_numpy_arrays_e1_e0>
-            <mixed_complex128_numpy_array_of_numpy_arrays_e1_e1 type="complex128">(-2+0j)</mixed_complex128_numpy_array_of_numpy_arrays_e1_e1>
-            <mixed_complex128_numpy_array_of_numpy_arrays_e1_e2 type="complex128">(3+0j)</mixed_complex128_numpy_array_of_numpy_arrays_e1_e2>
-        </mixed_complex128_numpy_array_of_numpy_arrays_e1>
-        <mixed_complex128_numpy_array_of_numpy_arrays_e2 type="ndarray">
-            <mixed_complex128_numpy_array_of_numpy_arrays_e2_e0 type="complex128">(1+0j)</mixed_complex128_numpy_array_of_numpy_arrays_e2_e0>
-            <mixed_complex128_numpy_array_of_numpy_arrays_e2_e1 type="complex128">(-2+0j)</mixed_complex128_numpy_array_of_numpy_arrays_e2_e1>
-            <mixed_complex128_numpy_array_of_numpy_arrays_e2_e2 type="complex128">(3+0j)</mixed_complex128_numpy_array_of_numpy_arrays_e2_e2>
-        </mixed_complex128_numpy_array_of_numpy_arrays_e2>
-    </mixed_complex128_numpy_array_of_numpy_arrays>
-    <mixed_complex64_numpy_array type="ndarray">
-        <mixed_complex64_numpy_array_e0 type="complex64">(1+0j)</mixed_complex64_numpy_array_e0>
-        <mixed_complex64_numpy_array_e1 type="complex64">(-2+0j)</mixed_complex64_numpy_array_e1>
-        <mixed_complex64_numpy_array_e2 type="complex64">(3+0j)</mixed_complex64_numpy_array_e2>
-    </mixed_complex64_numpy_array>
-    <mixed_complex64_numpy_array_of_numpy_arrays type="ndarray">
-        <mixed_complex64_numpy_array_of_numpy_arrays_e0 type="ndarray">
-            <mixed_complex64_numpy_array_of_numpy_arrays_e0_e0 type="complex64">(1+0j)</mixed_complex64_numpy_array_of_numpy_arrays_e0_e0>
-            <mixed_complex64_numpy_array_of_numpy_arrays_e0_e1 type="complex64">(-2+0j)</mixed_complex64_numpy_array_of_numpy_arrays_e0_e1>
-            <mixed_complex64_numpy_array_of_numpy_arrays_e0_e2 type="complex64">(3+0j)</mixed_complex64_numpy_array_of_numpy_arrays_e0_e2>
-        </mixed_complex64_numpy_array_of_numpy_arrays_e0>
-        <mixed_complex64_numpy_array_of_numpy_arrays_e1 type="ndarray">
-            <mixed_complex64_numpy_array_of_numpy_arrays_e1_e0 type="complex64">(1+0j)</mixed_complex64_numpy_array_of_numpy_arrays_e1_e0>
-            <mixed_complex64_numpy_array_of_numpy_arrays_e1_e1 type="complex64">(-2+0j)</mixed_complex64_numpy_array_of_numpy_arrays_e1_e1>
-            <mixed_complex64_numpy_array_of_numpy_arrays_e1_e2 type="complex64">(3+0j)</mixed_complex64_numpy_array_of_numpy_arrays_e1_e2>
-        </mixed_complex64_numpy_array_of_numpy_arrays_e1>
-        <mixed_complex64_numpy_array_of_numpy_arrays_e2 type="ndarray">
-            <mixed_complex64_numpy_array_of_numpy_arrays_e2_e0 type="complex64">(1+0j)</mixed_complex64_numpy_array_of_numpy_arrays_e2_e0>
-            <mixed_complex64_numpy_array_of_numpy_arrays_e2_e1 type="complex64">(-2+0j)</mixed_complex64_numpy_array_of_numpy_arrays_e2_e1>
-            <mixed_complex64_numpy_array_of_numpy_arrays_e2_e2 type="complex64">(3+0j)</mixed_complex64_numpy_array_of_numpy_arrays_e2_e2>
-        </mixed_complex64_numpy_array_of_numpy_arrays_e2>
-    </mixed_complex64_numpy_array_of_numpy_arrays>
-    <positive_int32_numpy_array type="ndarray">
-        <positive_int32_numpy_array_e0 type="int32">1</positive_int32_numpy_array_e0>
-        <positive_int32_numpy_array_e1 type="int32">2</positive_int32_numpy_array_e1>
-        <positive_int32_numpy_array_e2 type="int32">3</positive_int32_numpy_array_e2>
-    </positive_int32_numpy_array>
-    <positive_int32_numpy_array_of_numpy_arrays type="ndarray">
-        <positive_int32_numpy_array_of_numpy_arrays_e0 type="ndarray">
-            <positive_int32_numpy_array_of_numpy_arrays_e0_e0 type="int32">1</positive_int32_numpy_array_of_numpy_arrays_e0_e0>
-            <positive_int32_numpy_array_of_numpy_arrays_e0_e1 type="int32">2</positive_int32_numpy_array_of_numpy_arrays_e0_e1>
-            <positive_int32_numpy_array_of_numpy_arrays_e0_e2 type="int32">3</positive_int32_numpy_array_of_numpy_arrays_e0_e2>
-        </positive_int32_numpy_array_of_numpy_arrays_e0>
-        <positive_int32_numpy_array_of_numpy_arrays_e1 type="ndarray">
-            <positive_int32_numpy_array_of_numpy_arrays_e1_e0 type="int32">1</positive_int32_numpy_array_of_numpy_arrays_e1_e0>
-            <positive_int32_numpy_array_of_numpy_arrays_e1_e1 type="int32">2</positive_int32_numpy_array_of_numpy_arrays_e1_e1>
-            <positive_int32_numpy_array_of_numpy_arrays_e1_e2 type="int32">3</positive_int32_numpy_array_of_numpy_arrays_e1_e2>
-        </positive_int32_numpy_array_of_numpy_arrays_e1>
-        <positive_int32_numpy_array_of_numpy_arrays_e2 type="ndarray">
-            <positive_int32_numpy_array_of_numpy_arrays_e2_e0 type="int32">1</positive_int32_numpy_array_of_numpy_arrays_e2_e0>
-            <positive_int32_numpy_array_of_numpy_arrays_e2_e1 type="int32">2</positive_int32_numpy_array_of_numpy_arrays_e2_e1>
-            <positive_int32_numpy_array_of_numpy_arrays_e2_e2 type="int32">3</positive_int32_numpy_array_of_numpy_arrays_e2_e2>
-        </positive_int32_numpy_array_of_numpy_arrays_e2>
-    </positive_int32_numpy_array_of_numpy_arrays>
-    <mixed_int64_numpy_array type="ndarray">
-        <mixed_int64_numpy_array_e0 type="int64">1</mixed_int64_numpy_array_e0>
-        <mixed_int64_numpy_array_e1 type="int64">-2</mixed_int64_numpy_array_e1>
-        <mixed_int64_numpy_array_e2 type="int64">3</mixed_int64_numpy_array_e2>
-    </mixed_int64_numpy_array>
-    <mixed_int64_numpy_array_of_numpy_arrays type="ndarray">
-        <mixed_int64_numpy_array_of_numpy_arrays_e0 type="ndarray">
-            <mixed_int64_numpy_array_of_numpy_arrays_e0_e0 type="int64">1</mixed_int64_numpy_array_of_numpy_arrays_e0_e0>
-            <mixed_int64_numpy_array_of_numpy_arrays_e0_e1 type="int64">-2</mixed_int64_numpy_array_of_numpy_arrays_e0_e1>
-            <mixed_int64_numpy_array_of_numpy_arrays_e0_e2 type="int64">3</mixed_int64_numpy_array_of_numpy_arrays_e0_e2>
-        </mixed_int64_numpy_array_of_numpy_arrays_e0>
-        <mixed_int64_numpy_array_of_numpy_arrays_e1 type="ndarray">
-            <mixed_int64_numpy_array_of_numpy_arrays_e1_e0 type="int64">1</mixed_int64_numpy_array_of_numpy_arrays_e1_e0>
-            <mixed_int64_numpy_array_of_numpy_arrays_e1_e1 type="int64">-2</mixed_int64_numpy_array_of_numpy_arrays_e1_e1>
-            <mixed_int64_numpy_array_of_numpy_arrays_e1_e2 type="int64">3</mixed_int64_numpy_array_of_numpy_arrays_e1_e2>
-        </mixed_int64_numpy_array_of_numpy_arrays_e1>
-        <mixed_int64_numpy_array_of_numpy_arrays_e2 type="ndarray">
-            <mixed_int64_numpy_array_of_numpy_arrays_e2_e0 type="int64">1</mixed_int64_numpy_array_of_numpy_arrays_e2_e0>
-            <mixed_int64_numpy_array_of_numpy_arrays_e2_e1 type="int64">-2</mixed_int64_numpy_array_of_numpy_arrays_e2_e1>
-            <mixed_int64_numpy_array_of_numpy_arrays_e2_e2 type="int64">3</mixed_int64_numpy_array_of_numpy_arrays_e2_e2>
-        </mixed_int64_numpy_array_of_numpy_arrays_e2>
-    </mixed_int64_numpy_array_of_numpy_arrays>
-    <negative_int_float_cast_numpy_array type="ndarray">
-        <negative_int_float_cast_numpy_array_e0 type="float32">-1.0</negative_int_float_cast_numpy_array_e0>
-        <negative_int_float_cast_numpy_array_e1 type="float32">-2.0</negative_int_float_cast_numpy_array_e1>
-        <negative_int_float_cast_numpy_array_e2 type="float32">-3.0</negative_int_float_cast_numpy_array_e2>
-    </negative_int_float_cast_numpy_array>
-    <negative_int_float_cast_numpy_array_of_numpy_arrays type="ndarray">
-        <negative_int_float_cast_numpy_array_of_numpy_arrays_e0 type="ndarray">
-            <negative_int_float_cast_numpy_array_of_numpy_arrays_e0_e0 type="float32">-1.0</negative_int_float_cast_numpy_array_of_numpy_arrays_e0_e0>
-            <negative_int_float_cast_numpy_array_of_numpy_arrays_e0_e1 type="float32">-2.0</negative_int_float_cast_numpy_array_of_numpy_arrays_e0_e1>
-            <negative_int_float_cast_numpy_array_of_numpy_arrays_e0_e2 type="float32">-3.0</negative_int_float_cast_numpy_array_of_numpy_arrays_e0_e2>
-        </negative_int_float_cast_numpy_array_of_numpy_arrays_e0>
-        <negative_int_float_cast_numpy_array_of_numpy_arrays_e1 type="ndarray">
-            <negative_int_float_cast_numpy_array_of_numpy_arrays_e1_e0 type="float32">-1.0</negative_int_float_cast_numpy_array_of_numpy_arrays_e1_e0>
-            <negative_int_float_cast_numpy_array_of_numpy_arrays_e1_e1 type="float32">-2.0</negative_int_float_cast_numpy_array_of_numpy_arrays_e1_e1>
-            <negative_int_float_cast_numpy_array_of_numpy_arrays_e1_e2 type="float32">-3.0</negative_int_float_cast_numpy_array_of_numpy_arrays_e1_e2>
-        </negative_int_float_cast_numpy_array_of_numpy_arrays_e1>
-        <negative_int_float_cast_numpy_array_of_numpy_arrays_e2 type="ndarray">
-            <negative_int_float_cast_numpy_array_of_numpy_arrays_e2_e0 type="float32">-1.0</negative_int_float_cast_numpy_array_of_numpy_arrays_e2_e0>
-            <negative_int_float_cast_numpy_array_of_numpy_arrays_e2_e1 type="float32">-2.0</negative_int_float_cast_numpy_array_of_numpy_arrays_e2_e1>
-            <negative_int_float_cast_numpy_array_of_numpy_arrays_e2_e2 type="float32">-3.0</negative_int_float_cast_numpy_array_of_numpy_arrays_e2_e2>
-        </negative_int_float_cast_numpy_array_of_numpy_arrays_e2>
-    </negative_int_float_cast_numpy_array_of_numpy_arrays>
-    <str_expr_list type="list">
-        <str_expr_list_e0 type="str">step(distance(g1, g2)^2 - radius^2</str_expr_list_e0>
-        <str_expr_list_e1 type="str">0.5*k*(theta-theta0)^2</str_expr_list_e1>
-    </str_expr_list>
-    <str_list type="list">
-        <str_list_e0 type="str">Langevin</str_list_e0>
-        <str_list_e1 type="str">OpenMM</str_list_e1>
-    </str_list>
+	  <positive_float_list type="list">
+	  	  <positive_float_list_e0 type="float">1.0</positive_float_list_e0>
+	  	  <positive_float_list_e1 type="float">2.0</positive_float_list_e1>
+	  	  <positive_float_list_e2 type="float">3.0</positive_float_list_e2>
+	  </positive_float_list>
+	  <positive_float_list_of_lists type="list">
+	  	  <positive_float_list_of_lists_e0 type="list">
+	  	  	  <positive_float_list_of_lists_e0_e0 type="float">1.0</positive_float_list_of_lists_e0_e0>
+	  	  	  <positive_float_list_of_lists_e0_e1 type="float">2.0</positive_float_list_of_lists_e0_e1>
+	  	  	  <positive_float_list_of_lists_e0_e2 type="float">3.0</positive_float_list_of_lists_e0_e2>
+	  	  </positive_float_list_of_lists_e0>
+	  	  <positive_float_list_of_lists_e1 type="list">
+	  	  	  <positive_float_list_of_lists_e1_e0 type="float">1.0</positive_float_list_of_lists_e1_e0>
+	  	  	  <positive_float_list_of_lists_e1_e1 type="float">2.0</positive_float_list_of_lists_e1_e1>
+	  	  	  <positive_float_list_of_lists_e1_e2 type="float">3.0</positive_float_list_of_lists_e1_e2>
+	  	  </positive_float_list_of_lists_e1>
+	  	  <positive_float_list_of_lists_e2 type="list">
+	  	  	  <positive_float_list_of_lists_e2_e0 type="float">1.0</positive_float_list_of_lists_e2_e0>
+	  	  	  <positive_float_list_of_lists_e2_e1 type="float">2.0</positive_float_list_of_lists_e2_e1>
+	  	  	  <positive_float_list_of_lists_e2_e2 type="float">3.0</positive_float_list_of_lists_e2_e2>
+	  	  </positive_float_list_of_lists_e2>
+	  </positive_float_list_of_lists>
+	  <negative_float_list type="list">
+	  	  <negative_float_list_e0 type="float">-1.0</negative_float_list_e0>
+	  	  <negative_float_list_e1 type="float">-2.0</negative_float_list_e1>
+	  	  <negative_float_list_e2 type="float">-3.0</negative_float_list_e2>
+	  </negative_float_list>
+	  <negative_float_list_of_lists type="list">
+	  	  <negative_float_list_of_lists_e0 type="list">
+	  	  	  <negative_float_list_of_lists_e0_e0 type="float">-1.0</negative_float_list_of_lists_e0_e0>
+	  	  	  <negative_float_list_of_lists_e0_e1 type="float">-2.0</negative_float_list_of_lists_e0_e1>
+	  	  	  <negative_float_list_of_lists_e0_e2 type="float">-3.0</negative_float_list_of_lists_e0_e2>
+	  	  </negative_float_list_of_lists_e0>
+	  	  <negative_float_list_of_lists_e1 type="list">
+	  	  	  <negative_float_list_of_lists_e1_e0 type="float">-1.0</negative_float_list_of_lists_e1_e0>
+	  	  	  <negative_float_list_of_lists_e1_e1 type="float">-2.0</negative_float_list_of_lists_e1_e1>
+	  	  	  <negative_float_list_of_lists_e1_e2 type="float">-3.0</negative_float_list_of_lists_e1_e2>
+	  	  </negative_float_list_of_lists_e1>
+	  	  <negative_float_list_of_lists_e2 type="list">
+	  	  	  <negative_float_list_of_lists_e2_e0 type="float">-1.0</negative_float_list_of_lists_e2_e0>
+	  	  	  <negative_float_list_of_lists_e2_e1 type="float">-2.0</negative_float_list_of_lists_e2_e1>
+	  	  	  <negative_float_list_of_lists_e2_e2 type="float">-3.0</negative_float_list_of_lists_e2_e2>
+	  	  </negative_float_list_of_lists_e2>
+	  </negative_float_list_of_lists>
+	  <mixed_float_list type="list">
+	  	  <mixed_float_list_e0 type="float">1.0</mixed_float_list_e0>
+	  	  <mixed_float_list_e1 type="float">-2.0</mixed_float_list_e1>
+	  	  <mixed_float_list_e2 type="float">3.0</mixed_float_list_e2>
+	  </mixed_float_list>
+	  <mixed_float_list_of_lists type="list">
+	  	  <mixed_float_list_of_lists_e0 type="list">
+	  	  	  <mixed_float_list_of_lists_e0_e0 type="float">1.0</mixed_float_list_of_lists_e0_e0>
+	  	  	  <mixed_float_list_of_lists_e0_e1 type="float">-2.0</mixed_float_list_of_lists_e0_e1>
+	  	  	  <mixed_float_list_of_lists_e0_e2 type="float">3.0</mixed_float_list_of_lists_e0_e2>
+	  	  </mixed_float_list_of_lists_e0>
+	  	  <mixed_float_list_of_lists_e1 type="list">
+	  	  	  <mixed_float_list_of_lists_e1_e0 type="float">1.0</mixed_float_list_of_lists_e1_e0>
+	  	  	  <mixed_float_list_of_lists_e1_e1 type="float">-2.0</mixed_float_list_of_lists_e1_e1>
+	  	  	  <mixed_float_list_of_lists_e1_e2 type="float">3.0</mixed_float_list_of_lists_e1_e2>
+	  	  </mixed_float_list_of_lists_e1>
+	  	  <mixed_float_list_of_lists_e2 type="list">
+	  	  	  <mixed_float_list_of_lists_e2_e0 type="float">1.0</mixed_float_list_of_lists_e2_e0>
+	  	  	  <mixed_float_list_of_lists_e2_e1 type="float">-2.0</mixed_float_list_of_lists_e2_e1>
+	  	  	  <mixed_float_list_of_lists_e2_e2 type="float">3.0</mixed_float_list_of_lists_e2_e2>
+	  	  </mixed_float_list_of_lists_e2>
+	  </mixed_float_list_of_lists>
+	  <positive_int_list type="list">
+	  	  <positive_int_list_e0 type="int">1</positive_int_list_e0>
+	  	  <positive_int_list_e1 type="int">2</positive_int_list_e1>
+	  	  <positive_int_list_e2 type="int">3</positive_int_list_e2>
+	  </positive_int_list>
+	  <positive_int_list_of_lists type="list">
+	  	  <positive_int_list_of_lists_e0 type="list">
+	  	  	  <positive_int_list_of_lists_e0_e0 type="int">1</positive_int_list_of_lists_e0_e0>
+	  	  	  <positive_int_list_of_lists_e0_e1 type="int">2</positive_int_list_of_lists_e0_e1>
+	  	  	  <positive_int_list_of_lists_e0_e2 type="int">3</positive_int_list_of_lists_e0_e2>
+	  	  </positive_int_list_of_lists_e0>
+	  	  <positive_int_list_of_lists_e1 type="list">
+	  	  	  <positive_int_list_of_lists_e1_e0 type="int">1</positive_int_list_of_lists_e1_e0>
+	  	  	  <positive_int_list_of_lists_e1_e1 type="int">2</positive_int_list_of_lists_e1_e1>
+	  	  	  <positive_int_list_of_lists_e1_e2 type="int">3</positive_int_list_of_lists_e1_e2>
+	  	  </positive_int_list_of_lists_e1>
+	  	  <positive_int_list_of_lists_e2 type="list">
+	  	  	  <positive_int_list_of_lists_e2_e0 type="int">1</positive_int_list_of_lists_e2_e0>
+	  	  	  <positive_int_list_of_lists_e2_e1 type="int">2</positive_int_list_of_lists_e2_e1>
+	  	  	  <positive_int_list_of_lists_e2_e2 type="int">3</positive_int_list_of_lists_e2_e2>
+	  	  </positive_int_list_of_lists_e2>
+	  </positive_int_list_of_lists>
+	  <negative_int_list type="list">
+	  	  <negative_int_list_e0 type="int">-1</negative_int_list_e0>
+	  	  <negative_int_list_e1 type="int">-2</negative_int_list_e1>
+	  	  <negative_int_list_e2 type="int">-3</negative_int_list_e2>
+	  </negative_int_list>
+	  <negative_int_list_of_lists type="list">
+	  	  <negative_int_list_of_lists_e0 type="list">
+	  	  	  <negative_int_list_of_lists_e0_e0 type="int">-1</negative_int_list_of_lists_e0_e0>
+	  	  	  <negative_int_list_of_lists_e0_e1 type="int">-2</negative_int_list_of_lists_e0_e1>
+	  	  	  <negative_int_list_of_lists_e0_e2 type="int">-3</negative_int_list_of_lists_e0_e2>
+	  	  </negative_int_list_of_lists_e0>
+	  	  <negative_int_list_of_lists_e1 type="list">
+	  	  	  <negative_int_list_of_lists_e1_e0 type="int">-1</negative_int_list_of_lists_e1_e0>
+	  	  	  <negative_int_list_of_lists_e1_e1 type="int">-2</negative_int_list_of_lists_e1_e1>
+	  	  	  <negative_int_list_of_lists_e1_e2 type="int">-3</negative_int_list_of_lists_e1_e2>
+	  	  </negative_int_list_of_lists_e1>
+	  	  <negative_int_list_of_lists_e2 type="list">
+	  	  	  <negative_int_list_of_lists_e2_e0 type="int">-1</negative_int_list_of_lists_e2_e0>
+	  	  	  <negative_int_list_of_lists_e2_e1 type="int">-2</negative_int_list_of_lists_e2_e1>
+	  	  	  <negative_int_list_of_lists_e2_e2 type="int">-3</negative_int_list_of_lists_e2_e2>
+	  	  </negative_int_list_of_lists_e2>
+	  </negative_int_list_of_lists>
+	  <mixed_int_list type="list">
+	  	  <mixed_int_list_e0 type="int">1</mixed_int_list_e0>
+	  	  <mixed_int_list_e1 type="int">-2</mixed_int_list_e1>
+	  	  <mixed_int_list_e2 type="int">3</mixed_int_list_e2>
+	  </mixed_int_list>
+	  <mixed_int_list_of_lists type="list">
+	  	  <mixed_int_list_of_lists_e0 type="list">
+	  	  	  <mixed_int_list_of_lists_e0_e0 type="int">1</mixed_int_list_of_lists_e0_e0>
+	  	  	  <mixed_int_list_of_lists_e0_e1 type="int">-2</mixed_int_list_of_lists_e0_e1>
+	  	  	  <mixed_int_list_of_lists_e0_e2 type="int">3</mixed_int_list_of_lists_e0_e2>
+	  	  </mixed_int_list_of_lists_e0>
+	  	  <mixed_int_list_of_lists_e1 type="list">
+	  	  	  <mixed_int_list_of_lists_e1_e0 type="int">1</mixed_int_list_of_lists_e1_e0>
+	  	  	  <mixed_int_list_of_lists_e1_e1 type="int">-2</mixed_int_list_of_lists_e1_e1>
+	  	  	  <mixed_int_list_of_lists_e1_e2 type="int">3</mixed_int_list_of_lists_e1_e2>
+	  	  </mixed_int_list_of_lists_e1>
+	  	  <mixed_int_list_of_lists_e2 type="list">
+	  	  	  <mixed_int_list_of_lists_e2_e0 type="int">1</mixed_int_list_of_lists_e2_e0>
+	  	  	  <mixed_int_list_of_lists_e2_e1 type="int">-2</mixed_int_list_of_lists_e2_e1>
+	  	  	  <mixed_int_list_of_lists_e2_e2 type="int">3</mixed_int_list_of_lists_e2_e2>
+	  	  </mixed_int_list_of_lists_e2>
+	  </mixed_int_list_of_lists>
+	  <positive_float64_numpy_array type="ndarray">
+	  	  <positive_float64_numpy_array_e0 type="float64">1.0</positive_float64_numpy_array_e0>
+	  	  <positive_float64_numpy_array_e1 type="float64">2.0</positive_float64_numpy_array_e1>
+	  	  <positive_float64_numpy_array_e2 type="float64">3.0</positive_float64_numpy_array_e2>
+	  </positive_float64_numpy_array>
+	  <positive_float64_numpy_array_of_numpy_arrays type="ndarray">
+	  	  <positive_float64_numpy_array_of_numpy_arrays_e0 type="ndarray">
+	  	  	  <positive_float64_numpy_array_of_numpy_arrays_e0_e0 type="float64">1.0</positive_float64_numpy_array_of_numpy_arrays_e0_e0>
+	  	  	  <positive_float64_numpy_array_of_numpy_arrays_e0_e1 type="float64">2.0</positive_float64_numpy_array_of_numpy_arrays_e0_e1>
+	  	  	  <positive_float64_numpy_array_of_numpy_arrays_e0_e2 type="float64">3.0</positive_float64_numpy_array_of_numpy_arrays_e0_e2>
+	  	  </positive_float64_numpy_array_of_numpy_arrays_e0>
+	  	  <positive_float64_numpy_array_of_numpy_arrays_e1 type="ndarray">
+	  	  	  <positive_float64_numpy_array_of_numpy_arrays_e1_e0 type="float64">1.0</positive_float64_numpy_array_of_numpy_arrays_e1_e0>
+	  	  	  <positive_float64_numpy_array_of_numpy_arrays_e1_e1 type="float64">2.0</positive_float64_numpy_array_of_numpy_arrays_e1_e1>
+	  	  	  <positive_float64_numpy_array_of_numpy_arrays_e1_e2 type="float64">3.0</positive_float64_numpy_array_of_numpy_arrays_e1_e2>
+	  	  </positive_float64_numpy_array_of_numpy_arrays_e1>
+	  	  <positive_float64_numpy_array_of_numpy_arrays_e2 type="ndarray">
+	  	  	  <positive_float64_numpy_array_of_numpy_arrays_e2_e0 type="float64">1.0</positive_float64_numpy_array_of_numpy_arrays_e2_e0>
+	  	  	  <positive_float64_numpy_array_of_numpy_arrays_e2_e1 type="float64">2.0</positive_float64_numpy_array_of_numpy_arrays_e2_e1>
+	  	  	  <positive_float64_numpy_array_of_numpy_arrays_e2_e2 type="float64">3.0</positive_float64_numpy_array_of_numpy_arrays_e2_e2>
+	  	  </positive_float64_numpy_array_of_numpy_arrays_e2>
+	  </positive_float64_numpy_array_of_numpy_arrays>
+	  <negative_default_float_numpy_array type="ndarray">
+	  	  <negative_default_float_numpy_array_e0 type="float32">-1.0</negative_default_float_numpy_array_e0>
+	  	  <negative_default_float_numpy_array_e1 type="float32">-2.0</negative_default_float_numpy_array_e1>
+	  	  <negative_default_float_numpy_array_e2 type="float32">-3.0</negative_default_float_numpy_array_e2>
+	  </negative_default_float_numpy_array>
+	  <negative_default_float_numpy_array_of_numpy_arrays type="ndarray">
+	  	  <negative_default_float_numpy_array_of_numpy_arrays_e0 type="ndarray">
+	  	  	  <negative_default_float_numpy_array_of_numpy_arrays_e0_e0 type="float32">-1.0</negative_default_float_numpy_array_of_numpy_arrays_e0_e0>
+	  	  	  <negative_default_float_numpy_array_of_numpy_arrays_e0_e1 type="float32">-2.0</negative_default_float_numpy_array_of_numpy_arrays_e0_e1>
+	  	  	  <negative_default_float_numpy_array_of_numpy_arrays_e0_e2 type="float32">-3.0</negative_default_float_numpy_array_of_numpy_arrays_e0_e2>
+	  	  </negative_default_float_numpy_array_of_numpy_arrays_e0>
+	  	  <negative_default_float_numpy_array_of_numpy_arrays_e1 type="ndarray">
+	  	  	  <negative_default_float_numpy_array_of_numpy_arrays_e1_e0 type="float32">-1.0</negative_default_float_numpy_array_of_numpy_arrays_e1_e0>
+	  	  	  <negative_default_float_numpy_array_of_numpy_arrays_e1_e1 type="float32">-2.0</negative_default_float_numpy_array_of_numpy_arrays_e1_e1>
+	  	  	  <negative_default_float_numpy_array_of_numpy_arrays_e1_e2 type="float32">-3.0</negative_default_float_numpy_array_of_numpy_arrays_e1_e2>
+	  	  </negative_default_float_numpy_array_of_numpy_arrays_e1>
+	  	  <negative_default_float_numpy_array_of_numpy_arrays_e2 type="ndarray">
+	  	  	  <negative_default_float_numpy_array_of_numpy_arrays_e2_e0 type="float32">-1.0</negative_default_float_numpy_array_of_numpy_arrays_e2_e0>
+	  	  	  <negative_default_float_numpy_array_of_numpy_arrays_e2_e1 type="float32">-2.0</negative_default_float_numpy_array_of_numpy_arrays_e2_e1>
+	  	  	  <negative_default_float_numpy_array_of_numpy_arrays_e2_e2 type="float32">-3.0</negative_default_float_numpy_array_of_numpy_arrays_e2_e2>
+	  	  </negative_default_float_numpy_array_of_numpy_arrays_e2>
+	  </negative_default_float_numpy_array_of_numpy_arrays>
+	  <mixed_complex128_numpy_array type="ndarray">
+	  	  <mixed_complex128_numpy_array_e0 type="complex128">(1+0j)</mixed_complex128_numpy_array_e0>
+	  	  <mixed_complex128_numpy_array_e1 type="complex128">(-2+0j)</mixed_complex128_numpy_array_e1>
+	  	  <mixed_complex128_numpy_array_e2 type="complex128">(3+0j)</mixed_complex128_numpy_array_e2>
+	  </mixed_complex128_numpy_array>
+	  <mixed_complex128_numpy_array_of_numpy_arrays type="ndarray">
+	  	  <mixed_complex128_numpy_array_of_numpy_arrays_e0 type="ndarray">
+	  	  	  <mixed_complex128_numpy_array_of_numpy_arrays_e0_e0 type="complex128">(1+0j)</mixed_complex128_numpy_array_of_numpy_arrays_e0_e0>
+	  	  	  <mixed_complex128_numpy_array_of_numpy_arrays_e0_e1 type="complex128">(-2+0j)</mixed_complex128_numpy_array_of_numpy_arrays_e0_e1>
+	  	  	  <mixed_complex128_numpy_array_of_numpy_arrays_e0_e2 type="complex128">(3+0j)</mixed_complex128_numpy_array_of_numpy_arrays_e0_e2>
+	  	  </mixed_complex128_numpy_array_of_numpy_arrays_e0>
+	  	  <mixed_complex128_numpy_array_of_numpy_arrays_e1 type="ndarray">
+	  	  	  <mixed_complex128_numpy_array_of_numpy_arrays_e1_e0 type="complex128">(1+0j)</mixed_complex128_numpy_array_of_numpy_arrays_e1_e0>
+	  	  	  <mixed_complex128_numpy_array_of_numpy_arrays_e1_e1 type="complex128">(-2+0j)</mixed_complex128_numpy_array_of_numpy_arrays_e1_e1>
+	  	  	  <mixed_complex128_numpy_array_of_numpy_arrays_e1_e2 type="complex128">(3+0j)</mixed_complex128_numpy_array_of_numpy_arrays_e1_e2>
+	  	  </mixed_complex128_numpy_array_of_numpy_arrays_e1>
+	  	  <mixed_complex128_numpy_array_of_numpy_arrays_e2 type="ndarray">
+	  	  	  <mixed_complex128_numpy_array_of_numpy_arrays_e2_e0 type="complex128">(1+0j)</mixed_complex128_numpy_array_of_numpy_arrays_e2_e0>
+	  	  	  <mixed_complex128_numpy_array_of_numpy_arrays_e2_e1 type="complex128">(-2+0j)</mixed_complex128_numpy_array_of_numpy_arrays_e2_e1>
+	  	  	  <mixed_complex128_numpy_array_of_numpy_arrays_e2_e2 type="complex128">(3+0j)</mixed_complex128_numpy_array_of_numpy_arrays_e2_e2>
+	  	  </mixed_complex128_numpy_array_of_numpy_arrays_e2>
+	  </mixed_complex128_numpy_array_of_numpy_arrays>
+	  <mixed_complex64_numpy_array type="ndarray">
+	  	  <mixed_complex64_numpy_array_e0 type="complex64">(1+0j)</mixed_complex64_numpy_array_e0>
+	  	  <mixed_complex64_numpy_array_e1 type="complex64">(-2+0j)</mixed_complex64_numpy_array_e1>
+	  	  <mixed_complex64_numpy_array_e2 type="complex64">(3+0j)</mixed_complex64_numpy_array_e2>
+	  </mixed_complex64_numpy_array>
+	  <mixed_complex64_numpy_array_of_numpy_arrays type="ndarray">
+	  	  <mixed_complex64_numpy_array_of_numpy_arrays_e0 type="ndarray">
+	  	  	  <mixed_complex64_numpy_array_of_numpy_arrays_e0_e0 type="complex64">(1+0j)</mixed_complex64_numpy_array_of_numpy_arrays_e0_e0>
+	  	  	  <mixed_complex64_numpy_array_of_numpy_arrays_e0_e1 type="complex64">(-2+0j)</mixed_complex64_numpy_array_of_numpy_arrays_e0_e1>
+	  	  	  <mixed_complex64_numpy_array_of_numpy_arrays_e0_e2 type="complex64">(3+0j)</mixed_complex64_numpy_array_of_numpy_arrays_e0_e2>
+	  	  </mixed_complex64_numpy_array_of_numpy_arrays_e0>
+	  	  <mixed_complex64_numpy_array_of_numpy_arrays_e1 type="ndarray">
+	  	  	  <mixed_complex64_numpy_array_of_numpy_arrays_e1_e0 type="complex64">(1+0j)</mixed_complex64_numpy_array_of_numpy_arrays_e1_e0>
+	  	  	  <mixed_complex64_numpy_array_of_numpy_arrays_e1_e1 type="complex64">(-2+0j)</mixed_complex64_numpy_array_of_numpy_arrays_e1_e1>
+	  	  	  <mixed_complex64_numpy_array_of_numpy_arrays_e1_e2 type="complex64">(3+0j)</mixed_complex64_numpy_array_of_numpy_arrays_e1_e2>
+	  	  </mixed_complex64_numpy_array_of_numpy_arrays_e1>
+	  	  <mixed_complex64_numpy_array_of_numpy_arrays_e2 type="ndarray">
+	  	  	  <mixed_complex64_numpy_array_of_numpy_arrays_e2_e0 type="complex64">(1+0j)</mixed_complex64_numpy_array_of_numpy_arrays_e2_e0>
+	  	  	  <mixed_complex64_numpy_array_of_numpy_arrays_e2_e1 type="complex64">(-2+0j)</mixed_complex64_numpy_array_of_numpy_arrays_e2_e1>
+	  	  	  <mixed_complex64_numpy_array_of_numpy_arrays_e2_e2 type="complex64">(3+0j)</mixed_complex64_numpy_array_of_numpy_arrays_e2_e2>
+	  	  </mixed_complex64_numpy_array_of_numpy_arrays_e2>
+	  </mixed_complex64_numpy_array_of_numpy_arrays>
+	  <positive_int32_numpy_array type="ndarray">
+	  	  <positive_int32_numpy_array_e0 type="int32">1</positive_int32_numpy_array_e0>
+	  	  <positive_int32_numpy_array_e1 type="int32">2</positive_int32_numpy_array_e1>
+	  	  <positive_int32_numpy_array_e2 type="int32">3</positive_int32_numpy_array_e2>
+	  </positive_int32_numpy_array>
+	  <positive_int32_numpy_array_of_numpy_arrays type="ndarray">
+	  	  <positive_int32_numpy_array_of_numpy_arrays_e0 type="ndarray">
+	  	  	  <positive_int32_numpy_array_of_numpy_arrays_e0_e0 type="int32">1</positive_int32_numpy_array_of_numpy_arrays_e0_e0>
+	  	  	  <positive_int32_numpy_array_of_numpy_arrays_e0_e1 type="int32">2</positive_int32_numpy_array_of_numpy_arrays_e0_e1>
+	  	  	  <positive_int32_numpy_array_of_numpy_arrays_e0_e2 type="int32">3</positive_int32_numpy_array_of_numpy_arrays_e0_e2>
+	  	  </positive_int32_numpy_array_of_numpy_arrays_e0>
+	  	  <positive_int32_numpy_array_of_numpy_arrays_e1 type="ndarray">
+	  	  	  <positive_int32_numpy_array_of_numpy_arrays_e1_e0 type="int32">1</positive_int32_numpy_array_of_numpy_arrays_e1_e0>
+	  	  	  <positive_int32_numpy_array_of_numpy_arrays_e1_e1 type="int32">2</positive_int32_numpy_array_of_numpy_arrays_e1_e1>
+	  	  	  <positive_int32_numpy_array_of_numpy_arrays_e1_e2 type="int32">3</positive_int32_numpy_array_of_numpy_arrays_e1_e2>
+	  	  </positive_int32_numpy_array_of_numpy_arrays_e1>
+	  	  <positive_int32_numpy_array_of_numpy_arrays_e2 type="ndarray">
+	  	  	  <positive_int32_numpy_array_of_numpy_arrays_e2_e0 type="int32">1</positive_int32_numpy_array_of_numpy_arrays_e2_e0>
+	  	  	  <positive_int32_numpy_array_of_numpy_arrays_e2_e1 type="int32">2</positive_int32_numpy_array_of_numpy_arrays_e2_e1>
+	  	  	  <positive_int32_numpy_array_of_numpy_arrays_e2_e2 type="int32">3</positive_int32_numpy_array_of_numpy_arrays_e2_e2>
+	  	  </positive_int32_numpy_array_of_numpy_arrays_e2>
+	  </positive_int32_numpy_array_of_numpy_arrays>
+	  <mixed_int64_numpy_array type="ndarray">
+	  	  <mixed_int64_numpy_array_e0 type="int64">1</mixed_int64_numpy_array_e0>
+	  	  <mixed_int64_numpy_array_e1 type="int64">-2</mixed_int64_numpy_array_e1>
+	  	  <mixed_int64_numpy_array_e2 type="int64">3</mixed_int64_numpy_array_e2>
+	  </mixed_int64_numpy_array>
+	  <mixed_int64_numpy_array_of_numpy_arrays type="ndarray">
+	  	  <mixed_int64_numpy_array_of_numpy_arrays_e0 type="ndarray">
+	  	  	  <mixed_int64_numpy_array_of_numpy_arrays_e0_e0 type="int64">1</mixed_int64_numpy_array_of_numpy_arrays_e0_e0>
+	  	  	  <mixed_int64_numpy_array_of_numpy_arrays_e0_e1 type="int64">-2</mixed_int64_numpy_array_of_numpy_arrays_e0_e1>
+	  	  	  <mixed_int64_numpy_array_of_numpy_arrays_e0_e2 type="int64">3</mixed_int64_numpy_array_of_numpy_arrays_e0_e2>
+	  	  </mixed_int64_numpy_array_of_numpy_arrays_e0>
+	  	  <mixed_int64_numpy_array_of_numpy_arrays_e1 type="ndarray">
+	  	  	  <mixed_int64_numpy_array_of_numpy_arrays_e1_e0 type="int64">1</mixed_int64_numpy_array_of_numpy_arrays_e1_e0>
+	  	  	  <mixed_int64_numpy_array_of_numpy_arrays_e1_e1 type="int64">-2</mixed_int64_numpy_array_of_numpy_arrays_e1_e1>
+	  	  	  <mixed_int64_numpy_array_of_numpy_arrays_e1_e2 type="int64">3</mixed_int64_numpy_array_of_numpy_arrays_e1_e2>
+	  	  </mixed_int64_numpy_array_of_numpy_arrays_e1>
+	  	  <mixed_int64_numpy_array_of_numpy_arrays_e2 type="ndarray">
+	  	  	  <mixed_int64_numpy_array_of_numpy_arrays_e2_e0 type="int64">1</mixed_int64_numpy_array_of_numpy_arrays_e2_e0>
+	  	  	  <mixed_int64_numpy_array_of_numpy_arrays_e2_e1 type="int64">-2</mixed_int64_numpy_array_of_numpy_arrays_e2_e1>
+	  	  	  <mixed_int64_numpy_array_of_numpy_arrays_e2_e2 type="int64">3</mixed_int64_numpy_array_of_numpy_arrays_e2_e2>
+	  	  </mixed_int64_numpy_array_of_numpy_arrays_e2>
+	  </mixed_int64_numpy_array_of_numpy_arrays>
+	  <negative_int_float_cast_numpy_array type="ndarray">
+	  	  <negative_int_float_cast_numpy_array_e0 type="float32">-1.0</negative_int_float_cast_numpy_array_e0>
+	  	  <negative_int_float_cast_numpy_array_e1 type="float32">-2.0</negative_int_float_cast_numpy_array_e1>
+	  	  <negative_int_float_cast_numpy_array_e2 type="float32">-3.0</negative_int_float_cast_numpy_array_e2>
+	  </negative_int_float_cast_numpy_array>
+	  <negative_int_float_cast_numpy_array_of_numpy_arrays type="ndarray">
+	  	  <negative_int_float_cast_numpy_array_of_numpy_arrays_e0 type="ndarray">
+	  	  	  <negative_int_float_cast_numpy_array_of_numpy_arrays_e0_e0 type="float32">-1.0</negative_int_float_cast_numpy_array_of_numpy_arrays_e0_e0>
+	  	  	  <negative_int_float_cast_numpy_array_of_numpy_arrays_e0_e1 type="float32">-2.0</negative_int_float_cast_numpy_array_of_numpy_arrays_e0_e1>
+	  	  	  <negative_int_float_cast_numpy_array_of_numpy_arrays_e0_e2 type="float32">-3.0</negative_int_float_cast_numpy_array_of_numpy_arrays_e0_e2>
+	  	  </negative_int_float_cast_numpy_array_of_numpy_arrays_e0>
+	  	  <negative_int_float_cast_numpy_array_of_numpy_arrays_e1 type="ndarray">
+	  	  	  <negative_int_float_cast_numpy_array_of_numpy_arrays_e1_e0 type="float32">-1.0</negative_int_float_cast_numpy_array_of_numpy_arrays_e1_e0>
+	  	  	  <negative_int_float_cast_numpy_array_of_numpy_arrays_e1_e1 type="float32">-2.0</negative_int_float_cast_numpy_array_of_numpy_arrays_e1_e1>
+	  	  	  <negative_int_float_cast_numpy_array_of_numpy_arrays_e1_e2 type="float32">-3.0</negative_int_float_cast_numpy_array_of_numpy_arrays_e1_e2>
+	  	  </negative_int_float_cast_numpy_array_of_numpy_arrays_e1>
+	  	  <negative_int_float_cast_numpy_array_of_numpy_arrays_e2 type="ndarray">
+	  	  	  <negative_int_float_cast_numpy_array_of_numpy_arrays_e2_e0 type="float32">-1.0</negative_int_float_cast_numpy_array_of_numpy_arrays_e2_e0>
+	  	  	  <negative_int_float_cast_numpy_array_of_numpy_arrays_e2_e1 type="float32">-2.0</negative_int_float_cast_numpy_array_of_numpy_arrays_e2_e1>
+	  	  	  <negative_int_float_cast_numpy_array_of_numpy_arrays_e2_e2 type="float32">-3.0</negative_int_float_cast_numpy_array_of_numpy_arrays_e2_e2>
+	  	  </negative_int_float_cast_numpy_array_of_numpy_arrays_e2>
+	  </negative_int_float_cast_numpy_array_of_numpy_arrays>
+	  <str_expr_list type="list">
+	  	  <str_expr_list_e0 type="str">step(distance(g1, g2)^2 - radius^2</str_expr_list_e0>
+	  	  <str_expr_list_e1 type="str">0.5*k*(theta-theta0)^2</str_expr_list_e1>
+	  </str_expr_list>
+	  <str_list type="list">
+	  	  <str_list_e0 type="str">Langevin</str_list_e0>
+	  	  <str_list_e1 type="str">OpenMM</str_list_e1>
+	  </str_list>
 </UserInput>

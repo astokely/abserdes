@@ -187,6 +187,7 @@ class StrCastUtils(object):
             '_INT64',
             '_FLOAT32',
             '_FLOAT64',
+            '_FLOAT128',
             '_COMPLEX64',
             '_COMPLEX128',
         )
@@ -276,6 +277,7 @@ class StrCastUtils(object):
             'int64' : np.int64,
             'float32' : np.float32,
             'float64' : np.float64,
+            'float128' : np.float128,
             'complex64' : np.complex64,
             'complex128' : np.complex128
         } 
