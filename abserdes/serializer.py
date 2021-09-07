@@ -1,5 +1,17 @@
 from __future__ import annotations
-from typing import Union, TypeVar, NamedTuple, Sequence, Deque, Optional, List, Type, Dict, Any
+from typing import Union, \
+	TypeVar, \
+	NamedTuple, \
+	Sequence, \
+	Deque, \
+	Optional, \
+	List, \
+	Type, \
+	Dict, \
+	Any, \
+	Tuple, \
+	Generator, \
+	Set
 from types import ModuleType
 from collections import namedtuple
 import gc
@@ -211,8 +223,7 @@ class Deserialize(DeserializeUserInput):
 		tmp_ndarray_attr_list = getattr(self, name)
 		if self.immutable_is_deserialized(tmp_ndarray_attr_list):
 			setattr(self, name, self.list_to_ndarray(tmp_ndarray_attr_list))
-			
-			
+
 
 	def deserialize_dict(
 			self, 
@@ -369,6 +380,8 @@ class Deserialize(DeserializeUserInput):
 			class_inst._deserialize(child)
 		else:
 			class_inst = self.class_instance(node)
+			inst_attrs = InstanceAttrs(class_inst)
+			inst_attrs.call_init()
 			setattr(self, node.tag, class_inst)
 			class_inst._deserialize(node)
 		
