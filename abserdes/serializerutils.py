@@ -30,17 +30,29 @@ class SerializerUtils(object):
 			):
 		return class_.__module__
 
-	def get_instance_dict(
+	def get_cls_dict(
 			self, 
-			inst: INSTANCE,
+			cls_: CLASS,
 			keys: Optional[bool] = False,
 			values: Optional[bool] = False,
 			) -> Union[Dict, List]:
 		if keys:
+			return list(cls_.__dict__)
+		elif values:
+			return list(cls_.__dict__.values())
+		return cls_.__dict__
+
+	def get_inst_dict(
+			self,
+			inst: INSTANCE,
+			keys: Optional[bool] = False,
+			values: Optional[bool] = False,
+	) -> Union[Dict, List]:
+		if keys:
 			return list(inst.__dict__)
 		elif values:
 			return list(inst.__dict__.values())
-		return inst.__dict__ 
+		return inst.__dict__
 
 	def get_namedtuple_dict(
 			self, 
