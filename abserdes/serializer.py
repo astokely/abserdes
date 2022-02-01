@@ -87,7 +87,7 @@ class Deserialize(DeserializeUserInput):
 		if isinstance(path, list):
 			path = deque(path)
 		return self.deserialize_nested_attr_(
-			self.get_instance_dict(self)[name], 
+			self.get_inst_dict(self)[name],
 			val, 
 			path
 		)
@@ -283,7 +283,7 @@ class Deserialize(DeserializeUserInput):
 			):
 		namedtuple_attr_names = []
 		non_namedtuple_attr_names = []
-		for attr_name in self.get_instance_dict(cls):
+		for attr_name in self.get_inst_dict(cls):
 			if self.is_namedtuple_dict(attr_name):
 				namedtuple_attr_names.append(attr_name)
 			else:
@@ -642,5 +642,8 @@ class Deserialize(DeserializeUserInput):
 '''
 
 class Serializer(Deserialize, Serialize):
-	pass
+	def __init_subclass__(cls, *args, **kwargs):
+		if "blacklist" in kwargs:
+			cls.__blacklist = tuple(kwargs["blacklist"])
+		super().__init_subclass__()
 

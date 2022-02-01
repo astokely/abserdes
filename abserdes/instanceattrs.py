@@ -53,7 +53,7 @@ class InstanceAttrs(SerializerUtils):
             inst_attrs_ast: List[ast.Assign],
             ):
         for node in inst_attrs_ast:
-            value = self.get_instance_dict(node.value, values=True)[0]
+            value = self.get_inst_dict(node.value, values=True)[0]
             yield value
 
     def default_instance_attrs(self) -> Dict[str, Any]:
@@ -83,7 +83,7 @@ class InstanceAttrs(SerializerUtils):
         ]
 
     def instance_attrs(self):
-        return copy.deepcopy(self.get_instance_dict(self.inst))
+        return copy.deepcopy(self.get_inst_dict(self.inst))
 
     def map_instance_attrs_to_init_args(self):
         inst_attr_names = list(self.instance_attrs())
